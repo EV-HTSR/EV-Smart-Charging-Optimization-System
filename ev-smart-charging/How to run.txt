@@ -1,0 +1,3 @@
+Terminal 1 = Backend server (python app_backend.py) → KEEP OPEN
+
+Terminal 2 = Frontend dashboard (python -m streamlit run app_frontend.py) → KEEP OPEN

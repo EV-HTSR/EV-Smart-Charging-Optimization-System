@@ -1,0 +1,541 @@
+station_id,name,latitude,longitude,street_address,city,state,zip_code,charger_type,usage_cost,status,session_count,total_energy_kwh,total_revenue
+1,San Francisco Charging Hub 1,37.72120703669729,-122.42821998559191,761 Oak St,San Francisco,CA,94326,CHAdeMO,$0.25/kWh + $1 session fee,Active,162,7671.18,2079.83
+2,San Francisco Charging Hub 2,37.740320427388404,-122.39455797531873,682 Mission Ave,San Francisco,CA,94201,Level 2,$0.20/kWh,Active,182,3366.97,673.42
+3,San Francisco Charging Hub 3,37.70895897140117,-122.43365793019788,432 Cedar Ave,San Francisco,CA,94999,DC Fast,$0.20/kWh,Active,212,10412.86,2082.55
+4,San Francisco Charging Hub 4,37.771285891204066,-122.39139401740837,743 Willow Ave,San Francisco,CA,94336,Level 2,Free,Active,137,2532.21,0.0
+5,San Francisco Charging Hub 5,37.77266367942003,-122.43092163640569,970 Birch Dr,San Francisco,CA,94645,Tesla Supercharger,Free,Active,216,12376.95,0.0
+6,San Francisco Charging Hub 6,37.784079013139625,-122.44185923209864,481 Main Dr,San Francisco,CA,94100,DC Fast,$0.10/kWh,Maintenance,186,8577.03,857.76
+7,San Francisco Charging Hub 7,37.73600990475586,-122.39057157480303,315 Pine Blvd,San Francisco,CA,94455,CHAdeMO,$0.10/kWh,Maintenance,155,7330.04,733.02
+8,San Francisco Charging Hub 8,37.78064687521649,-122.48129156578665,635 Sunset Dr,San Francisco,CA,94989,Level 2,$0.15/kWh,Active,207,3913.05,586.94
+9,San Francisco Charging Hub 9,37.77497523771427,-122.41349298954691,820 Broadway Dr,San Francisco,CA,94478,Level 2,$0.10/kWh,Active,179,3326.11,332.6
+10,San Francisco Charging Hub 10,37.75867080378237,-122.43677990900838,389 Maple Blvd,San Francisco,CA,94408,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,134,7883.36,2104.86
+11,San Francisco Charging Hub 11,37.726533033136356,-122.39639198336207,355 Pine Blvd,San Francisco,CA,94624,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,86,5155.48,1374.84
+12,San Francisco Charging Hub 12,37.722983642899365,-122.4751727591878,478 Market Ave,San Francisco,CA,94934,Level 2,$0.25/kWh + $1 session fee,Active,168,3003.83,918.93
+13,San Jose Charging Hub 1,37.263540999761304,-121.83104534560279,801 Park St,San Jose,CA,94472,Level 2,Free,Active,112,2117.99,0.0
+14,San Jose Charging Hub 2,37.425690603559794,-122.00968309281588,120 Market Dr,San Jose,CA,94223,DC Fast,$0.20/kWh,Active,96,4537.24,907.44
+15,San Jose Charging Hub 3,37.39003674687038,-121.87225462479763,318 Lake Ave,San Jose,CA,94828,Level 2,$0.25/kWh + $1 session fee,Active,134,2537.91,768.46
+16,San Jose Charging Hub 4,37.297374980934535,-121.75583923482202,699 Market St,San Jose,CA,94162,CHAdeMO,$0.10/kWh,Maintenance,99,4973.81,497.4
+17,San Jose Charging Hub 5,37.232582579104005,-121.77046252864375,948 Willow Ave,San Jose,CA,94737,CCS,$0.25/kWh + $1 session fee,Active,193,9338.72,2527.66
+18,San Jose Charging Hub 6,37.1987667657258,-121.65883560732291,862 Main Ave,San Jose,CA,94200,CHAdeMO,$0.25/kWh + $1 session fee,Active,218,10467.66,2834.84
+19,San Jose Charging Hub 7,37.33153970902859,-121.8707128447545,981 University Ave,San Jose,CA,94550,DC Fast,$0.20/kWh,Maintenance,173,8113.94,1622.78
+20,San Jose Charging Hub 8,37.30715563824625,-121.75862719614676,441 Park Dr,San Jose,CA,94800,Tesla Supercharger,$0.20/kWh,Active,85,4807.3,961.47
+21,San Jose Charging Hub 9,37.3109407818483,-121.95192610970943,343 Sunset Blvd,San Jose,CA,94944,DC Fast,$0.10/kWh,Maintenance,102,4858.56,485.8
+22,San Jose Charging Hub 10,37.26191255178847,-121.8854907868011,862 Broadway St,San Jose,CA,94880,Level 2,$0.20/kWh,Active,190,3682.49,736.46
+23,San Jose Charging Hub 11,37.232345019968655,-121.84465162105569,773 Lake Ave,San Jose,CA,94364,DC Fast,$0.10/kWh,Active,161,7784.81,778.45
+24,San Jose Charging Hub 12,37.244051075119664,-121.8710833096097,973 Geary Ave,San Jose,CA,94312,CHAdeMO,$0.15/kWh,Active,167,7723.0,1158.42
+25,Oakland Charging Hub 1,37.85746861660559,-122.22736359111344,209 Walnut Ave,Oakland,CA,94705,CHAdeMO,Free,Active,153,6894.68,0.0
+26,Oakland Charging Hub 2,37.80530422820828,-122.30137920361452,341 Broadway Ave,Oakland,CA,94489,DC Fast,$0.15/kWh,Active,159,7555.68,1133.36
+27,Oakland Charging Hub 3,37.82318705176271,-122.2554920498907,246 Geary Dr,Oakland,CA,94387,CCS,$0.25/kWh + $1 session fee,Offline,104,4832.24,1312.01
+28,Oakland Charging Hub 4,37.773333504862116,-122.17116888040152,735 Oak Blvd,Oakland,CA,94272,Level 2,Free,Active,114,2352.23,0.0
+29,Oakland Charging Hub 5,37.75122482108403,-122.15419315523968,168 Park Blvd,Oakland,CA,94755,DC Fast,$0.10/kWh,Active,186,8572.51,857.23
+30,Oakland Charging Hub 6,37.73562537697025,-122.22343124779724,783 University Ave,Oakland,CA,94118,Level 2,$0.20/kWh,Active,171,3369.05,673.83
+31,Oakland Charging Hub 7,37.82080771512734,-122.28571210694311,298 Main Ave,Oakland,CA,94622,CHAdeMO,Free,Offline,131,6272.86,0.0
+32,Oakland Charging Hub 8,37.71808819118575,-122.20307968734737,114 Hill St,Oakland,CA,94894,CHAdeMO,$0.15/kWh,Active,85,4162.9,624.41
+33,Oakland Charging Hub 9,37.787714015114275,-122.17525801317281,557 Elm Blvd,Oakland,CA,94152,CCS,$0.10/kWh,Active,195,9462.29,946.27
+34,Oakland Charging Hub 10,37.80673492238532,-122.19163963717368,262 Walnut Ave,Oakland,CA,94982,DC Fast,$0.10/kWh,Maintenance,129,6232.52,623.31
+35,Oakland Charging Hub 11,37.79563257669309,-122.24862144411897,586 Market Blvd,Oakland,CA,94952,CCS,$0.25/kWh + $1 session fee,Active,147,6969.72,1889.42
+36,Oakland Charging Hub 12,37.810948349135884,-122.2493371627331,534 Geary Ave,Oakland,CA,94953,CCS,$0.25/kWh + $1 session fee,Active,80,3881.75,1050.49
+37,Palo Alto Charging Hub 1,37.312199004591115,-122.16653959060008,377 Willow St,Palo Alto,CA,94967,Level 2,Free,Active,164,3053.66,0.0
+38,Palo Alto Charging Hub 2,37.3802598694965,-122.17981933951361,917 Birch Blvd,Palo Alto,CA,94877,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,133,7719.02,2062.73
+39,Palo Alto Charging Hub 3,37.44964077605269,-122.11082044253612,211 Lake Dr,Palo Alto,CA,94407,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,162,8613.25,2315.31
+40,Palo Alto Charging Hub 4,37.32379380084579,-122.16586230986682,548 University Blvd,Palo Alto,CA,94304,CHAdeMO,$0.20/kWh,Offline,177,8244.98,1649.03
+41,Palo Alto Charging Hub 5,37.44308757010868,-122.09846029046433,978 Walnut Ave,Palo Alto,CA,94553,CCS,$0.25/kWh + $1 session fee,Maintenance,157,7467.59,2023.88
+42,Palo Alto Charging Hub 6,37.365229576893206,-122.17203231996041,900 Chestnut Dr,Palo Alto,CA,94525,Tesla Supercharger,$0.10/kWh,Active,218,12337.9,1233.8
+43,Palo Alto Charging Hub 7,37.363054195521315,-122.19193456099036,194 Elm Ave,Palo Alto,CA,94986,Level 2,Free,Active,103,1973.79,0.0
+44,Palo Alto Charging Hub 8,37.43830550624227,-122.11747702478768,776 California Ave,Palo Alto,CA,94466,CCS,Free,Active,141,6764.45,0.0
+45,Palo Alto Charging Hub 9,37.33237827465275,-122.17286822291194,501 Walnut Dr,Palo Alto,CA,94117,Tesla Supercharger,Free,Active,104,5779.32,0.0
+46,Palo Alto Charging Hub 10,37.45039717486968,-122.10336074576566,640 Elm Dr,Palo Alto,CA,94999,CHAdeMO,$0.25/kWh + $1 session fee,Maintenance,90,4308.72,1167.15
+47,Palo Alto Charging Hub 11,37.448940372283936,-122.09506800268815,263 Broadway Dr,Palo Alto,CA,94451,CHAdeMO,$0.10/kWh,Active,101,4640.68,464.1
+48,Palo Alto Charging Hub 12,37.41532759057696,-122.13785723784986,942 Oak Blvd,Palo Alto,CA,94503,Tesla Supercharger,$0.20/kWh,Active,185,10737.2,2147.48
+49,Mountain View Charging Hub 1,37.43071089238536,-122.07016013840098,970 Birch Blvd,Mountain View,CA,94170,Level 2,$0.25/kWh + $1 session fee,Active,148,2820.39,853.12
+50,Mountain View Charging Hub 2,37.41050659258348,-122.1123493758788,375 Elm Dr,Mountain View,CA,94324,DC Fast,Free,Active,194,8724.38,0.0
+51,Mountain View Charging Hub 3,37.37353879048009,-122.07823218075308,476 Oak Blvd,Mountain View,CA,94868,CHAdeMO,$0.25/kWh + $1 session fee,Active,85,4053.29,1098.33
+52,Mountain View Charging Hub 4,37.4036497031048,-122.063633597055,591 Main Ave,Mountain View,CA,94416,DC Fast,$0.10/kWh,Maintenance,181,8303.62,830.33
+53,Mountain View Charging Hub 5,37.414993282704955,-122.07837651715752,195 California St,Mountain View,CA,94876,Level 2,$0.15/kWh,Active,80,1565.34,234.79
+54,Mountain View Charging Hub 6,37.422200676389906,-122.07871436555645,915 Hill Blvd,Mountain View,CA,94142,CHAdeMO,$0.15/kWh,Active,220,10278.24,1541.74
+55,Mountain View Charging Hub 7,37.39726905776637,-122.07623684583257,909 Sunset Dr,Mountain View,CA,94302,CCS,$0.15/kWh,Active,124,6015.06,902.26
+56,Mountain View Charging Hub 8,37.4086495681767,-122.07050988912385,807 Chestnut Blvd,Mountain View,CA,94850,Level 2,$0.10/kWh,Active,205,3863.57,386.34
+57,Mountain View Charging Hub 9,37.424454268038865,-122.0913569179246,190 California Ave,Mountain View,CA,94273,DC Fast,$0.20/kWh,Active,205,9746.14,1949.22
+58,Mountain View Charging Hub 10,37.42239188138068,-122.08091725045442,833 Cedar Ave,Mountain View,CA,94366,Tesla Supercharger,$0.20/kWh,Active,98,5700.21,1140.05
+59,Mountain View Charging Hub 11,37.4200711669421,-122.07138339311062,856 Birch Blvd,Mountain View,CA,94558,CHAdeMO,$0.15/kWh,Active,153,7105.66,1065.85
+60,Mountain View Charging Hub 12,37.42013842053653,-122.09625518946031,466 University Blvd,Mountain View,CA,94828,Tesla Supercharger,$0.20/kWh,Active,171,9616.0,1923.24
+61,Berkeley Charging Hub 1,37.85209479223278,-122.28056959622083,556 Mission St,Berkeley,CA,94373,Level 2,$0.25/kWh + $1 session fee,Active,172,3321.65,1002.45
+62,Berkeley Charging Hub 2,37.87542949879835,-122.26584142678173,321 California St,Berkeley,CA,94979,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,211,11793.6,3159.45
+63,Berkeley Charging Hub 3,37.85299370524472,-122.29857473062943,459 Park Dr,Berkeley,CA,94308,Level 2,$0.10/kWh,Active,114,2101.34,210.17
+64,Berkeley Charging Hub 4,37.89021618391095,-122.26073260122529,777 Broadway Dr,Berkeley,CA,94706,Tesla Supercharger,Free,Offline,172,9942.56,0.0
+65,Berkeley Charging Hub 5,37.877349175549185,-122.25749737505662,592 University St,Berkeley,CA,94248,Level 2,$0.25/kWh + $1 session fee,Active,211,4068.65,1228.17
+66,Berkeley Charging Hub 6,37.89583821374511,-122.2610562272022,107 Pine Blvd,Berkeley,CA,94279,Level 2,$0.15/kWh,Active,143,2805.41,420.85
+67,Berkeley Charging Hub 7,37.89621551307707,-122.25936911611075,320 Cedar Dr,Berkeley,CA,94636,Level 2,$0.15/kWh,Active,140,2533.13,379.95
+68,Berkeley Charging Hub 8,37.86321784821887,-122.275241630538,800 Main Blvd,Berkeley,CA,94360,Tesla Supercharger,Free,Active,88,5138.31,0.0
+69,Berkeley Charging Hub 9,37.857780003788044,-122.26517007609536,878 Birch Blvd,Berkeley,CA,94199,Level 2,Free,Active,92,1796.66,0.0
+70,Berkeley Charging Hub 10,37.85410820291551,-122.24890199339386,247 Hill Dr,Berkeley,CA,94384,DC Fast,$0.10/kWh,Active,183,8735.87,873.57
+71,Berkeley Charging Hub 11,37.876524145988895,-122.2948663987396,403 California Blvd,Berkeley,CA,94954,CCS,$0.15/kWh,Offline,216,10609.16,1591.44
+72,Berkeley Charging Hub 12,37.853614891903796,-122.28241643231702,171 Lake Blvd,Berkeley,CA,94683,Level 2,$0.10/kWh,Active,156,2865.39,286.54
+73,Fremont Charging Hub 1,37.5546304461034,-122.0780645824472,503 Sunset St,Fremont,CA,94805,Level 2,$0.15/kWh,Active,93,1823.6,273.47
+74,Fremont Charging Hub 2,37.58819314223631,-121.93379285690963,264 Market Dr,Fremont,CA,94782,CHAdeMO,$0.20/kWh,Active,147,7617.32,1523.47
+75,Fremont Charging Hub 3,37.53484086326399,-121.95225182809853,767 Birch Dr,Fremont,CA,94602,CHAdeMO,$0.15/kWh,Active,148,7178.72,1076.79
+76,Fremont Charging Hub 4,37.50981228691151,-122.06842835606899,667 Cedar St,Fremont,CA,94876,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,201,11744.01,3136.98
+77,Fremont Charging Hub 5,37.5757279239104,-122.00921143439197,104 Maple Blvd,Fremont,CA,94598,CHAdeMO,Free,Active,184,8482.3,0.0
+78,Fremont Charging Hub 6,37.50395626989826,-121.98306026759991,739 Mission Ave,Fremont,CA,94657,Tesla Supercharger,$0.10/kWh,Active,156,9151.28,915.08
+79,Fremont Charging Hub 7,37.55087074157933,-121.95991295404,280 Willow St,Fremont,CA,94547,DC Fast,$0.20/kWh,Active,183,8326.52,1665.31
+80,Fremont Charging Hub 8,37.555246303003244,-121.9338028489636,564 Mission Dr,Fremont,CA,94642,Level 2,$0.25/kWh + $1 session fee,Active,180,3510.1,1057.54
+81,Fremont Charging Hub 9,37.5219731203015,-121.8976176375513,196 Birch Blvd,Fremont,CA,94657,Level 2,$0.25/kWh + $1 session fee,Active,108,2168.93,650.22
+82,Fremont Charging Hub 10,37.56955580890889,-121.93979696554995,572 Park St,Fremont,CA,94730,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,187,11239.54,2996.9
+83,Fremont Charging Hub 11,37.47337263251502,-121.92174237942898,972 Pine Ave,Fremont,CA,94894,CHAdeMO,$0.10/kWh,Active,131,6215.99,621.65
+84,Fremont Charging Hub 12,37.48373748084056,-121.99825157075013,871 Lake Blvd,Fremont,CA,94111,Tesla Supercharger,$0.10/kWh,Active,200,11575.43,1157.5
+85,Sunnyvale Charging Hub 1,37.35201971883049,-122.0089799302701,225 Mission Ave,Sunnyvale,CA,94955,CCS,$0.15/kWh,Active,135,5986.29,897.93
+86,Sunnyvale Charging Hub 2,37.40212554203877,-122.0020390224524,802 Walnut Blvd,Sunnyvale,CA,94693,CHAdeMO,$0.10/kWh,Maintenance,90,3754.3,375.41
+87,Sunnyvale Charging Hub 3,37.349943470557285,-122.05587582502885,528 University Ave,Sunnyvale,CA,94800,CHAdeMO,$0.20/kWh,Active,154,7676.11,1535.27
+88,Sunnyvale Charging Hub 4,37.41706265457007,-121.99786631604924,407 Geary Ave,Sunnyvale,CA,94772,CHAdeMO,Free,Active,183,8200.32,0.0
+89,Sunnyvale Charging Hub 5,37.34183797916842,-122.0175795869496,632 Maple St,Sunnyvale,CA,94142,DC Fast,$0.15/kWh,Active,104,4790.79,718.66
+90,Sunnyvale Charging Hub 6,37.42936578866074,-122.04085316152177,253 Main St,Sunnyvale,CA,94837,DC Fast,$0.10/kWh,Active,86,4271.12,427.13
+91,Sunnyvale Charging Hub 7,37.39147470014579,-122.023623031801,120 Elm Dr,Sunnyvale,CA,94416,CCS,$0.20/kWh,Active,212,9766.41,1953.3
+92,Sunnyvale Charging Hub 8,37.34055633307616,-122.02631554162055,894 Geary Ave,Sunnyvale,CA,94779,CHAdeMO,$0.25/kWh + $1 session fee,Active,128,6346.74,1714.66
+93,Sunnyvale Charging Hub 9,37.39263056481328,-121.98818881006916,689 Pine St,Sunnyvale,CA,94894,CCS,$0.10/kWh,Active,177,8201.73,820.15
+94,Sunnyvale Charging Hub 10,37.347607518956984,-122.03714076999555,442 Main St,Sunnyvale,CA,94598,DC Fast,$0.15/kWh,Active,93,4567.37,685.12
+95,Sunnyvale Charging Hub 11,37.420048774191365,-122.01422893978831,613 Geary Blvd,Sunnyvale,CA,94386,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,171,9788.33,2618.11
+96,Sunnyvale Charging Hub 12,37.389941187992434,-122.03660675262428,235 Birch Blvd,Sunnyvale,CA,94618,Level 2,$0.20/kWh,Active,185,3504.98,700.96
+97,Redwood City Charging Hub 1,37.49322022933496,-122.24143956307766,299 Hill Ave,Redwood City,CA,94721,CCS,Free,Active,112,5223.96,0.0
+98,Redwood City Charging Hub 2,37.50988938568135,-122.21761434459972,495 Birch Dr,Redwood City,CA,94684,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,127,7296.55,1951.12
+99,Redwood City Charging Hub 3,37.46105334048255,-122.23915869136782,744 Oak St,Redwood City,CA,94926,CHAdeMO,Free,Active,126,5982.46,0.0
+100,Redwood City Charging Hub 4,37.48751711589368,-122.24764293732673,578 Willow Dr,Redwood City,CA,94775,DC Fast,$0.10/kWh,Active,115,5480.55,548.07
+101,Redwood City Charging Hub 5,37.498894114027834,-122.21253551765386,562 Market Ave,Redwood City,CA,94142,Level 2,$0.25/kWh + $1 session fee,Maintenance,153,2790.56,850.64
+102,Redwood City Charging Hub 6,37.54963433827139,-122.23186601766433,855 Maple Ave,Redwood City,CA,94889,CCS,$0.25/kWh + $1 session fee,Active,153,7410.77,2005.67
+103,Redwood City Charging Hub 7,37.51941069203157,-122.2327058104664,789 Walnut Dr,Redwood City,CA,94576,Tesla Supercharger,Free,Active,194,10981.05,0.0
+104,Redwood City Charging Hub 8,37.52579356453133,-122.24393818287257,552 Sunset St,Redwood City,CA,94194,CCS,$0.20/kWh,Active,177,8272.81,1654.61
+105,Redwood City Charging Hub 9,37.47764990785272,-122.2475878682606,556 Mission Blvd,Redwood City,CA,94173,CCS,$0.20/kWh,Maintenance,148,7038.71,1407.74
+106,Redwood City Charging Hub 10,37.53030658633492,-122.2599169770264,850 Willow Ave,Redwood City,CA,94263,Level 2,$0.20/kWh,Active,184,3591.33,718.31
+107,Redwood City Charging Hub 11,37.52302690784558,-122.24039193148928,835 Geary Dr,Redwood City,CA,94828,Tesla Supercharger,$0.20/kWh,Active,188,10879.58,2175.93
+108,Redwood City Charging Hub 12,37.484791451656385,-122.20481721334247,777 Geary Dr,Redwood City,CA,94576,Level 2,$0.20/kWh,Active,154,2887.07,577.43
+109,San Mateo Charging Hub 1,37.566621306002126,-122.29400956672697,851 Broadway Ave,San Mateo,CA,94676,Tesla Supercharger,Free,Active,117,6721.44,0.0
+110,San Mateo Charging Hub 2,37.555678934978395,-122.31474904560075,979 Birch St,San Mateo,CA,94613,DC Fast,$0.25/kWh + $1 session fee,Active,120,5992.68,1618.16
+111,San Mateo Charging Hub 3,37.557846522675895,-122.30657747102778,731 Hill Dr,San Mateo,CA,94506,CHAdeMO,$0.25/kWh + $1 session fee,Active,129,6352.06,1716.95
+112,San Mateo Charging Hub 4,37.57233581659055,-122.30557051314507,216 Geary Ave,San Mateo,CA,94199,CHAdeMO,$0.15/kWh,Offline,83,4210.4,631.58
+113,San Mateo Charging Hub 5,37.54134686318653,-122.3075062195143,350 Elm Blvd,San Mateo,CA,94135,Level 2,$0.10/kWh,Active,160,3087.88,308.79
+114,San Mateo Charging Hub 6,37.55425806409487,-122.28628278705261,818 Walnut St,San Mateo,CA,94403,Level 2,$0.15/kWh,Maintenance,115,2215.83,332.39
+115,San Mateo Charging Hub 7,37.546683044537076,-122.31823663061627,416 Park Ave,San Mateo,CA,94902,DC Fast,$0.25/kWh + $1 session fee,Active,212,9879.25,2681.76
+116,San Mateo Charging Hub 8,37.52706084314752,-122.30005709973594,162 California Blvd,San Mateo,CA,94800,Tesla Supercharger,$0.15/kWh,Active,181,10342.3,1551.35
+117,San Mateo Charging Hub 9,37.57048566279775,-122.33352330035014,495 Park Blvd,San Mateo,CA,94856,CHAdeMO,$0.20/kWh,Maintenance,182,8348.08,1669.6
+118,San Mateo Charging Hub 10,37.55703987721866,-122.33020565880858,977 Birch Dr,San Mateo,CA,94359,CCS,$0.15/kWh,Active,145,6930.12,1039.54
+119,San Mateo Charging Hub 11,37.52804148318897,-122.31857612554316,261 University St,San Mateo,CA,94755,CCS,$0.20/kWh,Active,196,8968.09,1793.61
+120,San Mateo Charging Hub 12,37.582421382626904,-122.31716970976834,299 Hill Dr,San Mateo,CA,94468,DC Fast,$0.25/kWh + $1 session fee,Active,151,7035.96,1909.95
+121,Santa Clara Charging Hub 1,37.39988810933397,-121.96701773181648,248 Chestnut Dr,Santa Clara,CA,94611,Tesla Supercharger,$0.20/kWh,Active,155,9157.12,1831.35
+122,Santa Clara Charging Hub 2,37.40435963996166,-121.97843314634015,577 Park St,Santa Clara,CA,94780,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,161,9248.77,2473.18
+123,Santa Clara Charging Hub 3,37.335540899263236,-121.97245042078005,245 Market Blvd,Santa Clara,CA,94182,Tesla Supercharger,$0.15/kWh,Active,93,5053.49,758.05
+124,Santa Clara Charging Hub 4,37.36009007610358,-121.99052749719189,592 Pine Dr,Santa Clara,CA,94307,Level 2,Free,Active,199,3643.04,0.0
+125,Santa Clara Charging Hub 5,37.35882351214356,-121.94802142187207,874 California St,Santa Clara,CA,94509,Tesla Supercharger,$0.15/kWh,Active,84,4743.39,711.52
+126,Santa Clara Charging Hub 6,37.340439000484196,-121.9913410653702,548 University Ave,Santa Clara,CA,94586,CCS,$0.15/kWh,Active,149,6852.57,1027.91
+127,Santa Clara Charging Hub 7,37.38587958415359,-121.98682746920258,117 Maple St,Santa Clara,CA,94195,Level 2,$0.10/kWh,Maintenance,191,3492.55,349.24
+128,Santa Clara Charging Hub 8,37.329452342274706,-121.96166518819467,333 Geary Dr,Santa Clara,CA,94404,Level 2,$0.25/kWh + $1 session fee,Active,123,2240.94,683.24
+129,Santa Clara Charging Hub 9,37.331085986676285,-121.95295478570353,464 Main Blvd,Santa Clara,CA,94758,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,185,10680.99,2855.32
+130,Santa Clara Charging Hub 10,37.367241417022804,-121.9808746367017,904 Oak St,Santa Clara,CA,94102,Tesla Supercharger,Free,Active,190,10780.36,0.0
+131,Santa Clara Charging Hub 11,37.34543123748331,-121.96741572544538,302 Willow Ave,Santa Clara,CA,94741,CHAdeMO,$0.20/kWh,Offline,154,7595.21,1518.99
+132,Santa Clara Charging Hub 12,37.33816880727307,-121.99228078397907,431 Geary St,Santa Clara,CA,94324,Tesla Supercharger,$0.10/kWh,Active,158,8964.47,896.4
+133,Cupertino Charging Hub 1,37.30222779150257,-122.03434164649273,329 Elm St,Cupertino,CA,94654,DC Fast,$0.20/kWh,Active,188,9057.84,1811.54
+134,Cupertino Charging Hub 2,37.30714774893367,-122.05629751645368,358 Main St,Cupertino,CA,94406,CCS,$0.15/kWh,Active,143,6748.06,1012.18
+135,Cupertino Charging Hub 3,37.30574782924317,-122.0743206153237,458 Lake Dr,Cupertino,CA,94469,CHAdeMO,$0.20/kWh,Active,185,8774.8,1755.01
+136,Cupertino Charging Hub 4,37.2827109514444,-122.06687546358135,791 Pine St,Cupertino,CA,94322,Level 2,$0.25/kWh + $1 session fee,Active,118,2198.7,667.62
+137,Cupertino Charging Hub 5,37.31913557401271,-122.01835877872706,380 Lake St,Cupertino,CA,94965,CCS,$0.10/kWh,Active,131,6357.01,635.68
+138,Cupertino Charging Hub 6,37.3043463998325,-122.03625145035379,175 Mission Dr,Cupertino,CA,94783,Level 2,Free,Active,103,1856.96,0.0
+139,Cupertino Charging Hub 7,37.327920183313886,-122.06627076343706,793 Park St,Cupertino,CA,94805,CCS,Free,Maintenance,219,10109.25,0.0
+140,Cupertino Charging Hub 8,37.32144603378125,-122.00742261670213,256 Pine St,Cupertino,CA,94519,CHAdeMO,$0.15/kWh,Active,99,4668.91,700.31
+141,Cupertino Charging Hub 9,37.30256839884676,-122.05327122673127,696 Chestnut Dr,Cupertino,CA,94200,CHAdeMO,$0.20/kWh,Active,166,7871.07,1574.23
+142,Cupertino Charging Hub 10,37.31155367901795,-122.08341984988942,158 Pine Blvd,Cupertino,CA,94488,CCS,$0.15/kWh,Active,183,8651.58,1297.77
+143,Cupertino Charging Hub 11,37.31678868223481,-122.00767064024618,369 Cedar Dr,Cupertino,CA,94750,CHAdeMO,$0.25/kWh + $1 session fee,Maintenance,210,10044.38,2721.04
+144,Cupertino Charging Hub 12,37.315120557005415,-122.01040902767531,431 Maple Dr,Cupertino,CA,94559,CCS,$0.20/kWh,Maintenance,157,7389.4,1477.86
+145,Menlo Park Charging Hub 1,37.44672003360581,-122.17230756690084,658 Walnut Blvd,Menlo Park,CA,94160,DC Fast,$0.10/kWh,Active,122,6070.95,607.09
+146,Menlo Park Charging Hub 2,37.48042323165887,-122.16236671018594,796 Pine St,Menlo Park,CA,94599,CCS,$0.10/kWh,Active,131,6213.07,621.33
+147,Menlo Park Charging Hub 3,37.421930348951335,-122.21213846460577,620 Main Dr,Menlo Park,CA,94434,CCS,$0.20/kWh,Active,208,10113.52,2022.68
+148,Menlo Park Charging Hub 4,37.48478136559936,-122.17932098662213,123 Cedar Dr,Menlo Park,CA,94777,DC Fast,$0.10/kWh,Active,89,4298.05,429.79
+149,Menlo Park Charging Hub 5,37.496496919091925,-122.17544654031131,331 Geary Ave,Menlo Park,CA,94914,DC Fast,$0.15/kWh,Active,183,8705.33,1305.83
+150,Menlo Park Charging Hub 6,37.50074620246406,-122.14889825827194,360 Birch Dr,Menlo Park,CA,94537,Level 2,$0.20/kWh,Active,94,1837.27,367.47
+151,Menlo Park Charging Hub 7,37.46663688506403,-122.15160621942715,467 Geary St,Menlo Park,CA,94693,CCS,$0.20/kWh,Active,216,10538.4,2107.61
+152,Menlo Park Charging Hub 8,37.47894383188636,-122.16570594418532,995 Elm Blvd,Menlo Park,CA,94734,DC Fast,$0.10/kWh,Active,94,4431.82,443.19
+153,Menlo Park Charging Hub 9,37.50316067658446,-122.14682349852048,395 Main Blvd,Menlo Park,CA,94236,DC Fast,$0.20/kWh,Active,209,9887.19,1977.47
+154,Menlo Park Charging Hub 10,37.42329599475424,-122.22086045242804,385 Main Ave,Menlo Park,CA,94726,Tesla Supercharger,Free,Active,135,7669.67,0.0
+155,Menlo Park Charging Hub 11,37.48771371261545,-122.15844471908693,493 Hill Ave,Menlo Park,CA,94921,CCS,$0.25/kWh + $1 session fee,Active,187,9225.99,2493.46
+156,Menlo Park Charging Hub 12,37.5001030560666,-122.14174824948296,989 Willow Blvd,Menlo Park,CA,94217,DC Fast,$0.15/kWh,Maintenance,214,10123.09,1518.39
+157,Hayward Charging Hub 1,37.627483977053835,-121.99721067977727,764 Lake St,Hayward,CA,94518,DC Fast,$0.25/kWh + $1 session fee,Active,204,9431.37,2561.9
+158,Hayward Charging Hub 2,37.63054128485031,-122.13794484948455,365 Hill Ave,Hayward,CA,94727,DC Fast,$0.25/kWh + $1 session fee,Active,98,4656.7,1262.19
+159,Hayward Charging Hub 3,37.66304725821293,-122.07026394544474,493 Elm Dr,Hayward,CA,94460,DC Fast,$0.25/kWh + $1 session fee,Active,142,7095.45,1915.85
+160,Hayward Charging Hub 4,37.661969779776136,-122.14005913960452,141 Market St,Hayward,CA,94353,DC Fast,$0.25/kWh + $1 session fee,Active,108,5054.78,1371.71
+161,Hayward Charging Hub 5,37.63215136559068,-122.06926227312934,487 Broadway Dr,Hayward,CA,94108,CHAdeMO,$0.15/kWh,Active,171,8038.61,1205.81
+162,Hayward Charging Hub 6,37.6266723258741,-122.08537723605144,402 Park Dr,Hayward,CA,94565,CCS,$0.25/kWh + $1 session fee,Active,186,8698.87,2360.67
+163,Hayward Charging Hub 7,37.666686195980155,-122.07921361927396,508 Broadway Blvd,Hayward,CA,94281,Level 2,$0.10/kWh,Active,86,1637.21,163.76
+164,Hayward Charging Hub 8,37.624254363481164,-122.07836962168639,320 Market St,Hayward,CA,94660,Tesla Supercharger,$0.15/kWh,Active,219,12892.74,1933.91
+165,Hayward Charging Hub 9,37.575885114634644,-122.11696962352799,919 California Ave,Hayward,CA,94912,Tesla Supercharger,$0.10/kWh,Active,128,7345.82,734.57
+166,Hayward Charging Hub 10,37.60516499844034,-122.117571201991,998 University Dr,Hayward,CA,94156,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,132,7811.57,2084.87
+167,Hayward Charging Hub 11,37.66240127981022,-122.15931871769094,911 Geary Blvd,Hayward,CA,94846,DC Fast,Free,Active,191,8956.82,0.0
+168,Hayward Charging Hub 12,37.59346671241636,-122.14329524663633,522 Pine Dr,Hayward,CA,94154,Tesla Supercharger,$0.10/kWh,Active,193,11152.0,1115.16
+169,Concord Charging Hub 1,37.96079256560034,-122.02943103737353,597 Hill Blvd,Concord,CA,94885,CHAdeMO,$0.10/kWh,Active,95,4454.56,445.49
+170,Concord Charging Hub 2,37.994479852629546,-122.00611560328902,195 California Ave,Concord,CA,94424,DC Fast,$0.10/kWh,Active,107,5059.15,505.89
+171,Concord Charging Hub 3,37.96883586462717,-121.94488235752462,112 Walnut Dr,Concord,CA,94397,Tesla Supercharger,$0.25/kWh + $1 session fee,Maintenance,198,11494.39,3071.51
+172,Concord Charging Hub 4,37.95424072872847,-121.96208332186131,170 Hill Ave,Concord,CA,94778,Level 2,$0.20/kWh,Active,152,2878.49,575.65
+173,Concord Charging Hub 5,37.97015254136008,-122.00050474198943,415 University St,Concord,CA,94975,Level 2,Free,Active,150,2765.85,0.0
+174,Concord Charging Hub 6,38.005849580289386,-122.02085713458098,505 University Ave,Concord,CA,94614,Level 2,$0.25/kWh + $1 session fee,Maintenance,166,2993.09,914.23
+175,Concord Charging Hub 7,37.95213620383203,-121.97589537995017,331 Market Dr,Concord,CA,94987,CCS,$0.10/kWh,Active,105,5137.5,513.75
+176,Concord Charging Hub 8,37.96064941467741,-121.94890838385841,756 Walnut Blvd,Concord,CA,94841,DC Fast,$0.10/kWh,Active,102,4597.5,459.72
+177,Concord Charging Hub 9,37.93638106362029,-121.98156997153428,784 Market Ave,Concord,CA,94487,CHAdeMO,$0.15/kWh,Active,89,4169.87,625.47
+178,Concord Charging Hub 10,37.99131483261271,-122.01151266890999,137 California St,Concord,CA,94399,CHAdeMO,$0.10/kWh,Active,199,9931.98,993.16
+179,Concord Charging Hub 11,37.965437258585744,-121.98688788184306,721 Park Dr,Concord,CA,94459,DC Fast,$0.10/kWh,Active,156,7241.19,724.17
+180,Concord Charging Hub 12,37.98121442057886,-121.95386305988497,155 Oak Blvd,Concord,CA,94189,DC Fast,$0.25/kWh + $1 session fee,Maintenance,84,3959.37,1073.9
+181,San Francisco Charging Hub 1,37.795894,-122.44668,487 Pine Blvd,San Francisco,CA,94949,CCS,$0.20/kWh,Active,164,6609.97,1321.99
+182,San Francisco Charging Hub 2,37.72094,-122.457127,799 Pine Ave,San Francisco,CA,94646,Level 2,$0.15/kWh,Active,81,1794.06,269.12
+183,San Francisco Charging Hub 3,37.732222,-122.502484,167 Birch Blvd,San Francisco,CA,94317,Level 2,$0.15/kWh,Active,201,4407.64,661.13
+184,San Francisco Charging Hub 4,37.771275,-122.394343,651 Chestnut Dr,San Francisco,CA,94697,Level 2,$0.10/kWh,Active,154,3570.63,357.1
+185,San Francisco Charging Hub 5,37.765039,-122.489933,579 Sunset Blvd,San Francisco,CA,94666,Level 2,$0.20/kWh,Active,167,3735.89,747.21
+186,San Francisco Charging Hub 6,37.744016,-122.428709,482 Maple St,San Francisco,CA,94713,DC Fast,$0.25/kWh + $1 session fee,Active,148,5866.4,1614.61
+187,San Francisco Charging Hub 7,37.745557,-122.459035,187 Mission St,San Francisco,CA,94878,Level 2,$0.25/kWh + $1 session fee,Maintenance,152,3308.16,979.04
+188,San Francisco Charging Hub 8,37.711868,-122.483289,532 Maple Blvd,San Francisco,CA,94573,Level 2,$0.25/kWh + $1 session fee,Active,86,1850.72,548.67
+189,San Francisco Charging Hub 9,37.721561,-122.445743,160 Maple Dr,San Francisco,CA,94102,Level 2,$0.10/kWh,Maintenance,96,2077.33,207.73
+190,San Francisco Charging Hub 10,37.770622,-122.496184,598 Elm Ave,San Francisco,CA,94403,Level 2,$0.25/kWh + $1 session fee,Active,89,1998.28,588.6
+191,San Francisco Charging Hub 11,37.761915,-122.435499,708 Oak St,San Francisco,CA,94529,CHAdeMO,$0.25/kWh + $1 session fee,Active,140,5855.72,1603.95
+192,San Francisco Charging Hub 12,37.779187,-122.442451,533 Chestnut St,San Francisco,CA,94103,Level 2,Free,Active,193,4114.66,0.0
+193,San Jose Charging Hub 1,37.367312,-121.842709,807 Elm St,San Jose,CA,94954,Level 2,Free,Active,120,2704.99,0.0
+194,San Jose Charging Hub 2,37.314327,-121.876129,915 Oak Blvd,San Jose,CA,94315,Level 2,Free,Active,99,2206.24,0.0
+195,San Jose Charging Hub 3,37.316873,-121.883279,342 Maple Ave,San Jose,CA,94522,CCS,$0.25/kWh + $1 session fee,Active,168,6770.36,1860.62
+196,San Jose Charging Hub 4,37.405689,-121.943677,992 Willow Ave,San Jose,CA,94124,Level 2,$0.15/kWh,Active,184,3936.54,590.46
+197,San Jose Charging Hub 5,37.358265,-121.811614,218 Chestnut Ave,San Jose,CA,94694,CCS,$0.15/kWh,Maintenance,89,3469.41,520.43
+198,San Jose Charging Hub 6,37.300106,-121.767065,145 California St,San Jose,CA,94632,Level 2,$0.25/kWh + $1 session fee,Active,197,4359.89,1286.97
+199,San Jose Charging Hub 7,37.249176,-121.737419,779 Cedar Blvd,San Jose,CA,94619,Level 2,$0.15/kWh,Active,206,4412.47,661.92
+200,San Jose Charging Hub 8,37.264459,-121.903709,296 California Dr,San Jose,CA,94793,Level 2,$0.15/kWh,Active,210,4547.43,682.1
+201,San Jose Charging Hub 9,37.263657,-121.78414,540 Lake Blvd,San Jose,CA,94576,CCS,$0.15/kWh,Active,218,9292.8,1393.87
+202,San Jose Charging Hub 10,37.356919,-121.842732,390 Sunset Blvd,San Jose,CA,94195,Level 2,$0.10/kWh,Active,164,3479.51,347.91
+203,San Jose Charging Hub 11,37.200883,-121.736422,586 Hill St,San Jose,CA,94566,Level 2,Free,Active,189,4168.69,0.0
+204,San Jose Charging Hub 12,37.341051,-121.855316,349 Elm St,San Jose,CA,94868,Level 2,$0.20/kWh,Active,110,2442.22,488.46
+205,Oakland Charging Hub 1,37.739988,-122.165269,670 Willow St,Oakland,CA,94567,CCS,$0.25/kWh + $1 session fee,Active,113,4582.96,1258.76
+206,Oakland Charging Hub 2,37.803261,-122.221607,836 Sunset Dr,Oakland,CA,94950,Level 2,$0.20/kWh,Active,121,2692.92,538.57
+207,Oakland Charging Hub 3,37.839141,-122.240075,633 Mission Ave,Oakland,CA,94381,CCS,$0.15/kWh,Active,145,6195.83,929.37
+208,Oakland Charging Hub 4,37.832028,-122.242398,653 Pine Ave,Oakland,CA,94254,Level 2,$0.15/kWh,Active,133,2726.69,408.97
+209,Oakland Charging Hub 5,37.828382,-122.289924,438 Park Dr,Oakland,CA,94525,DC Fast,Free,Active,187,7706.71,0.0
+210,Oakland Charging Hub 6,37.842494,-122.253879,883 Lake Dr,Oakland,CA,94588,CHAdeMO,Free,Maintenance,216,8858.81,0.0
+211,Oakland Charging Hub 7,37.800881,-122.17231,379 California Dr,Oakland,CA,94129,DC Fast,$0.10/kWh,Active,209,8514.21,851.44
+212,Oakland Charging Hub 8,37.823717,-122.25402,230 Hill St,Oakland,CA,94503,Tesla Supercharger,$0.10/kWh,Active,143,8423.39,842.41
+213,Oakland Charging Hub 9,37.822624,-122.207764,572 Maple St,Oakland,CA,94366,Level 2,$0.20/kWh,Active,158,3462.72,692.52
+214,Oakland Charging Hub 10,37.8409,-122.268148,183 Mission St,Oakland,CA,94867,Level 2,$0.20/kWh,Active,138,3048.47,609.69
+215,Oakland Charging Hub 11,37.820232,-122.262882,353 Birch St,Oakland,CA,94736,Tesla Supercharger,Free,Active,160,9699.19,0.0
+216,Oakland Charging Hub 12,37.804199,-122.190093,271 Hill St,Oakland,CA,94896,Level 2,$0.15/kWh,Active,201,4251.48,637.78
+217,Palo Alto Charging Hub 1,37.459454,-122.106746,689 Broadway Dr,Palo Alto,CA,94832,Level 2,Free,Maintenance,213,4655.38,0.0
+218,Palo Alto Charging Hub 2,37.431108,-122.122556,455 Park Dr,Palo Alto,CA,94777,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,104,6555.72,1742.92
+219,Palo Alto Charging Hub 3,37.41362,-122.105645,376 Hill Dr,Palo Alto,CA,94576,Level 2,$0.25/kWh + $1 session fee,Offline,183,4070.54,1200.6
+220,Palo Alto Charging Hub 4,37.417843,-122.15167,188 Chestnut Dr,Palo Alto,CA,94349,Level 2,$0.10/kWh,Active,102,2234.81,223.51
+221,Palo Alto Charging Hub 5,37.337474,-122.172418,629 Birch St,Palo Alto,CA,94347,Level 2,$0.15/kWh,Active,119,2559.22,383.91
+222,Palo Alto Charging Hub 6,37.420498,-122.152849,357 Willow St,Palo Alto,CA,94838,Level 2,$0.20/kWh,Active,135,2932.47,586.5
+223,Palo Alto Charging Hub 7,37.423392,-122.139929,383 Lake Blvd,Palo Alto,CA,94202,Level 2,$0.10/kWh,Active,173,3927.76,392.79
+224,Palo Alto Charging Hub 8,37.421718,-122.127987,580 Mission Dr,Palo Alto,CA,94448,Level 2,Free,Active,102,2241.7,0.0
+225,Palo Alto Charging Hub 9,37.440837,-122.150834,161 Hill St,Palo Alto,CA,94881,CHAdeMO,$0.15/kWh,Active,193,7975.95,1196.41
+226,Palo Alto Charging Hub 10,37.325253,-122.178338,665 Pine Ave,Palo Alto,CA,94102,DC Fast,$0.10/kWh,Active,94,4174.08,417.44
+227,Palo Alto Charging Hub 11,37.338019,-122.168935,370 Lake Ave,Palo Alto,CA,94535,CCS,Free,Active,132,5568.27,0.0
+228,Palo Alto Charging Hub 12,37.451703,-122.106168,816 Broadway Blvd,Palo Alto,CA,94612,Level 2,$0.20/kWh,Active,193,4319.14,863.88
+229,Mountain View Charging Hub 1,37.396475,-122.078355,718 Chestnut St,Mountain View,CA,94193,Level 2,$0.20/kWh,Active,114,2500.11,500.0
+230,Mountain View Charging Hub 2,37.41931,-122.100938,883 Chestnut St,Mountain View,CA,94881,CCS,$0.25/kWh + $1 session fee,Offline,138,5787.35,1584.86
+231,Mountain View Charging Hub 3,37.399636,-122.062652,699 California Dr,Mountain View,CA,94193,DC Fast,$0.15/kWh,Active,154,6105.9,915.87
+232,Mountain View Charging Hub 4,37.393636,-122.083435,437 California Dr,Mountain View,CA,94395,Level 2,Free,Maintenance,205,4411.8,0.0
+233,Mountain View Charging Hub 5,37.392874,-122.069454,422 Chestnut Blvd,Mountain View,CA,94218,Tesla Supercharger,Free,Active,185,11229.28,0.0
+234,Mountain View Charging Hub 6,37.393233,-122.047122,655 Geary Dr,Mountain View,CA,94155,Level 2,Free,Active,133,2880.39,0.0
+235,Mountain View Charging Hub 7,37.389141,-122.103939,308 Chestnut Ave,Mountain View,CA,94394,Tesla Supercharger,$0.20/kWh,Active,123,7590.24,1518.02
+236,Mountain View Charging Hub 8,37.421623,-122.08575,826 Maple Blvd,Mountain View,CA,94664,Level 2,$0.25/kWh + $1 session fee,Active,207,4538.61,1341.59
+237,Mountain View Charging Hub 9,37.369079,-122.070534,379 California Dr,Mountain View,CA,94583,CHAdeMO,$0.15/kWh,Active,103,4152.21,622.84
+238,Mountain View Charging Hub 10,37.407433,-122.099863,239 Pine Blvd,Mountain View,CA,94891,Level 2,$0.25/kWh + $1 session fee,Active,109,2404.24,710.06
+239,Mountain View Charging Hub 11,37.394273,-122.060203,102 Walnut Blvd,Mountain View,CA,94957,CHAdeMO,$0.25/kWh + $1 session fee,Active,95,4048.47,1107.06
+240,Mountain View Charging Hub 12,37.368561,-122.08201,881 Park Dr,Mountain View,CA,94566,Level 2,$0.15/kWh,Active,88,1856.59,278.5
+241,Berkeley Charging Hub 1,37.864945,-122.287574,779 Elm Dr,Berkeley,CA,94137,Level 2,$0.20/kWh,Active,153,3510.15,702.05
+242,Berkeley Charging Hub 2,37.851882,-122.294712,567 Main Ave,Berkeley,CA,94519,CCS,Free,Active,209,8301.91,0.0
+243,Berkeley Charging Hub 3,37.850679,-122.288779,424 Mission St,Berkeley,CA,94732,Level 2,$0.25/kWh + $1 session fee,Active,159,3394.12,1007.51
+244,Berkeley Charging Hub 4,37.87189,-122.25713,810 Walnut St,Berkeley,CA,94147,Level 2,Free,Active,122,2670.31,0.0
+245,Berkeley Charging Hub 5,37.849228,-122.295403,643 California Ave,Berkeley,CA,94274,Level 2,$0.20/kWh,Active,171,3893.69,778.71
+246,Berkeley Charging Hub 6,37.880838,-122.279701,782 Main Dr,Berkeley,CA,94394,Level 2,$0.15/kWh,Active,95,2040.39,306.09
+247,Berkeley Charging Hub 7,37.855337,-122.263396,406 California Blvd,Berkeley,CA,94567,Level 2,$0.15/kWh,Offline,154,3478.4,521.73
+248,Berkeley Charging Hub 8,37.85781,-122.248202,490 Lake Blvd,Berkeley,CA,94688,Level 2,$0.20/kWh,Active,189,4091.32,818.26
+249,Berkeley Charging Hub 9,37.895813,-122.257275,460 Willow Ave,Berkeley,CA,94735,CCS,$0.10/kWh,Active,139,5652.63,565.24
+250,Berkeley Charging Hub 10,37.886697,-122.255254,761 Oak Blvd,Berkeley,CA,94907,Level 2,Free,Maintenance,201,4431.99,0.0
+251,Berkeley Charging Hub 11,37.880623,-122.284852,434 California Ave,Berkeley,CA,94305,DC Fast,Free,Maintenance,143,6057.77,0.0
+252,Berkeley Charging Hub 12,37.894232,-122.281134,579 Pine Ave,Berkeley,CA,94872,DC Fast,$0.15/kWh,Active,140,5930.15,889.55
+253,Fremont Charging Hub 1,37.574772,-122.036586,477 Chestnut Dr,Fremont,CA,94942,Level 2,$0.25/kWh + $1 session fee,Active,119,2689.4,791.34
+254,Fremont Charging Hub 2,37.510879,-121.964993,674 University Ave,Fremont,CA,94763,DC Fast,$0.20/kWh,Active,168,6785.95,1357.24
+255,Fremont Charging Hub 3,37.50032,-121.893909,138 Walnut Dr,Fremont,CA,94218,Level 2,$0.10/kWh,Active,182,3794.51,379.48
+256,Fremont Charging Hub 4,37.523403,-122.096981,860 Elm Dr,Fremont,CA,94770,DC Fast,$0.25/kWh + $1 session fee,Active,202,8337.99,2286.5
+257,Fremont Charging Hub 5,37.528845,-122.106598,479 Birch Dr,Fremont,CA,94555,Level 2,$0.15/kWh,Active,96,2141.12,321.14
+258,Fremont Charging Hub 6,37.558768,-122.106511,382 Birch St,Fremont,CA,94968,Level 2,$0.15/kWh,Active,145,3352.41,502.93
+259,Fremont Charging Hub 7,37.468235,-121.916269,151 University Ave,Fremont,CA,94228,Level 2,$0.25/kWh + $1 session fee,Offline,208,4383.05,1303.75
+260,Fremont Charging Hub 8,37.485538,-121.926036,321 Willow Blvd,Fremont,CA,94892,CCS,$0.25/kWh + $1 session fee,Active,202,8135.69,2235.93
+261,Fremont Charging Hub 9,37.503609,-122.070139,531 Sunset St,Fremont,CA,94863,Level 2,Free,Active,201,4431.14,0.0
+262,Fremont Charging Hub 10,37.565103,-121.971146,758 Main St,Fremont,CA,94590,CCS,$0.25/kWh + $1 session fee,Active,152,6034.87,1660.74
+263,Fremont Charging Hub 11,37.519232,-121.910205,182 University Ave,Fremont,CA,94167,Level 2,$0.20/kWh,Active,106,2312.31,462.49
+264,Fremont Charging Hub 12,37.549416,-122.099467,711 Sunset Blvd,Fremont,CA,94564,Level 2,$0.15/kWh,Active,187,4088.66,613.26
+265,Sunnyvale Charging Hub 1,37.381299,-122.023372,766 Park Ave,Sunnyvale,CA,94540,Tesla Supercharger,Free,Maintenance,208,12361.47,0.0
+266,Sunnyvale Charging Hub 2,37.357351,-122.027839,847 Cedar Blvd,Sunnyvale,CA,94537,Level 2,$0.20/kWh,Active,177,4024.8,804.97
+267,Sunnyvale Charging Hub 3,37.360485,-122.039342,951 Pine St,Sunnyvale,CA,94542,CHAdeMO,$0.20/kWh,Active,105,4217.0,843.42
+268,Sunnyvale Charging Hub 4,37.396278,-121.998036,786 Cedar Dr,Sunnyvale,CA,94462,Level 2,$0.25/kWh + $1 session fee,Active,183,4157.6,1222.42
+269,Sunnyvale Charging Hub 5,37.364372,-122.060943,317 Elm Dr,Sunnyvale,CA,94329,Level 2,Free,Active,182,3909.44,0.0
+270,Sunnyvale Charging Hub 6,37.37179,-121.995098,687 Willow Dr,Sunnyvale,CA,94965,Level 2,Free,Active,180,3984.67,0.0
+271,Sunnyvale Charging Hub 7,37.421336,-122.018787,773 Chestnut St,Sunnyvale,CA,94284,DC Fast,$0.25/kWh + $1 session fee,Active,147,5983.9,1642.96
+272,Sunnyvale Charging Hub 8,37.371898,-121.988954,510 Pine Ave,Sunnyvale,CA,94858,Level 2,$0.10/kWh,Active,165,3606.25,360.62
+273,Sunnyvale Charging Hub 9,37.355765,-122.003468,419 University St,Sunnyvale,CA,94153,Level 2,$0.15/kWh,Active,178,3873.93,581.14
+274,Sunnyvale Charging Hub 10,37.339909,-122.061082,552 California Blvd,Sunnyvale,CA,94320,Level 2,$0.20/kWh,Active,192,4088.87,817.77
+275,Sunnyvale Charging Hub 11,37.363852,-122.02963,415 Oak Ave,Sunnyvale,CA,94504,DC Fast,$0.20/kWh,Active,192,7930.96,1586.29
+276,Sunnyvale Charging Hub 12,37.442457,-122.048286,222 Main Dr,Sunnyvale,CA,94864,Tesla Supercharger,$0.15/kWh,Active,179,10832.54,1624.9
+277,Redwood City Charging Hub 1,37.460785,-122.237054,953 Market St,Redwood City,CA,94506,Level 2,$0.10/kWh,Active,135,2918.8,291.91
+278,Redwood City Charging Hub 2,37.507843,-122.183185,514 Main Blvd,Redwood City,CA,94275,Level 2,$0.20/kWh,Active,170,3694.27,738.83
+279,Redwood City Charging Hub 3,37.512308,-122.190774,964 Cedar Ave,Redwood City,CA,94546,CCS,$0.15/kWh,Active,130,5221.02,783.14
+280,Redwood City Charging Hub 4,37.502385,-122.2173,326 University Ave,Redwood City,CA,94178,Level 2,$0.15/kWh,Active,105,2378.39,356.76
+281,Redwood City Charging Hub 5,37.459187,-122.227087,938 Elm Ave,Redwood City,CA,94205,Level 2,$0.15/kWh,Active,161,3565.77,534.81
+282,Redwood City Charging Hub 6,37.527281,-122.215611,743 Mission Dr,Redwood City,CA,94872,DC Fast,$0.10/kWh,Offline,164,6587.7,658.8
+283,Redwood City Charging Hub 7,37.508234,-122.220438,739 University Blvd,Redwood City,CA,94254,DC Fast,$0.25/kWh + $1 session fee,Active,101,3911.58,1078.9
+284,Redwood City Charging Hub 8,37.496585,-122.235917,460 Sunset St,Redwood City,CA,94417,DC Fast,$0.15/kWh,Active,149,5996.7,899.44
+285,Redwood City Charging Hub 9,37.451135,-122.233173,984 Pine Dr,Redwood City,CA,94573,Level 2,$0.15/kWh,Active,180,3812.21,571.84
+286,Redwood City Charging Hub 10,37.507411,-122.177324,254 Oak Dr,Redwood City,CA,94205,Level 2,$0.25/kWh + $1 session fee,Active,130,2928.94,862.23
+287,Redwood City Charging Hub 11,37.511431,-122.225391,893 University St,Redwood City,CA,94908,Level 2,$0.15/kWh,Active,109,2509.26,376.36
+288,Redwood City Charging Hub 12,37.482436,-122.212054,390 Chestnut Ave,Redwood City,CA,94441,Level 2,$0.25/kWh + $1 session fee,Active,80,1776.99,524.27
+289,San Mateo Charging Hub 1,37.56557,-122.34836,815 Broadway Ave,San Mateo,CA,94709,CCS,$0.15/kWh,Offline,80,3395.9,509.39
+290,San Mateo Charging Hub 2,37.56397,-122.310014,948 Sunset St,San Mateo,CA,94761,Level 2,$0.10/kWh,Active,201,4505.93,450.63
+291,San Mateo Charging Hub 3,37.553236,-122.301055,319 University Dr,San Mateo,CA,94296,Level 2,$0.15/kWh,Active,164,3588.05,538.2
+292,San Mateo Charging Hub 4,37.525707,-122.324648,269 Geary St,San Mateo,CA,94520,CCS,$0.25/kWh + $1 session fee,Active,200,7894.69,2173.69
+293,San Mateo Charging Hub 5,37.57002,-122.325646,866 Geary Ave,San Mateo,CA,94646,CHAdeMO,$0.25/kWh + $1 session fee,Active,117,4280.14,1187.05
+294,San Mateo Charging Hub 6,37.547838,-122.30909,528 Maple Ave,San Mateo,CA,94920,Tesla Supercharger,$0.20/kWh,Active,96,5698.05,1139.59
+295,San Mateo Charging Hub 7,37.587091,-122.325091,391 Pine Ave,San Mateo,CA,94379,DC Fast,$0.25/kWh + $1 session fee,Maintenance,96,3676.48,1015.13
+296,San Mateo Charging Hub 8,37.553623,-122.318817,327 Geary Blvd,San Mateo,CA,94127,CCS,Free,Maintenance,145,5583.85,0.0
+297,San Mateo Charging Hub 9,37.544328,-122.321582,483 Willow St,San Mateo,CA,94426,Level 2,$0.20/kWh,Offline,217,4686.77,937.41
+298,San Mateo Charging Hub 10,37.575728,-122.302701,583 Elm Dr,San Mateo,CA,94559,Level 2,$0.15/kWh,Maintenance,125,2723.36,408.47
+299,San Mateo Charging Hub 11,37.546459,-122.306001,148 Willow Dr,San Mateo,CA,94754,Tesla Supercharger,$0.10/kWh,Active,101,6127.05,612.71
+300,San Mateo Charging Hub 12,37.549151,-122.29114,116 Sunset Ave,San Mateo,CA,94835,Level 2,$0.20/kWh,Active,147,3244.17,648.85
+301,Santa Clara Charging Hub 1,37.364006,-121.994061,291 Pine Blvd,Santa Clara,CA,94169,DC Fast,$0.10/kWh,Active,163,6777.97,677.81
+302,Santa Clara Charging Hub 2,37.371493,-121.945749,496 Market Blvd,Santa Clara,CA,94865,Level 2,$0.20/kWh,Active,126,2777.09,555.46
+303,Santa Clara Charging Hub 3,37.393017,-121.978938,440 Elm St,Santa Clara,CA,94460,DC Fast,$0.25/kWh + $1 session fee,Active,178,7165.25,1969.31
+304,Santa Clara Charging Hub 4,37.400713,-121.963816,590 Maple Ave,Santa Clara,CA,94164,Level 2,$0.20/kWh,Offline,93,1967.8,393.57
+305,Santa Clara Charging Hub 5,37.34226,-122.002072,417 Sunset Dr,Santa Clara,CA,94934,Tesla Supercharger,Free,Active,97,5699.64,0.0
+306,Santa Clara Charging Hub 6,37.3472,-121.96404,982 Oak Blvd,Santa Clara,CA,94379,Tesla Supercharger,$0.10/kWh,Active,162,9136.12,913.54
+307,Santa Clara Charging Hub 7,37.358158,-121.995497,495 University Ave,Santa Clara,CA,94608,CCS,$0.20/kWh,Maintenance,204,7933.86,1586.85
+308,Santa Clara Charging Hub 8,37.358093,-121.95284,844 California St,Santa Clara,CA,94540,Tesla Supercharger,$0.15/kWh,Active,124,7310.91,1096.64
+309,Santa Clara Charging Hub 9,37.401557,-121.959575,435 Walnut Blvd,Santa Clara,CA,94556,Level 2,$0.15/kWh,Active,215,4822.91,723.43
+310,Santa Clara Charging Hub 10,37.363707,-121.959562,844 Market Dr,Santa Clara,CA,94381,DC Fast,$0.15/kWh,Active,161,6956.43,1043.43
+311,Santa Clara Charging Hub 11,37.398608,-121.956793,920 Maple St,Santa Clara,CA,94246,Level 2,$0.20/kWh,Active,161,3634.21,726.87
+312,Santa Clara Charging Hub 12,37.387777,-121.94107,897 Market Blvd,Santa Clara,CA,94492,Level 2,$0.10/kWh,Active,160,3749.87,374.92
+313,Cupertino Charging Hub 1,37.306348,-122.076459,687 Elm Blvd,Cupertino,CA,94507,Level 2,$0.20/kWh,Active,160,3401.25,680.33
+314,Cupertino Charging Hub 2,37.295764,-122.061118,611 Sunset Dr,Cupertino,CA,94675,CHAdeMO,Free,Active,180,7650.42,0.0
+315,Cupertino Charging Hub 3,37.32644,-122.07986,392 Mission Ave,Cupertino,CA,94225,DC Fast,$0.10/kWh,Offline,202,8447.17,844.64
+316,Cupertino Charging Hub 4,37.322633,-122.074627,826 Pine Blvd,Cupertino,CA,94407,CHAdeMO,$0.15/kWh,Active,195,7928.57,1189.33
+317,Cupertino Charging Hub 5,37.322536,-122.009932,620 Willow St,Cupertino,CA,94305,CHAdeMO,$0.10/kWh,Active,96,4097.24,409.7
+318,Cupertino Charging Hub 6,37.300846,-122.043994,664 Elm St,Cupertino,CA,94167,Level 2,$0.20/kWh,Active,98,2125.92,425.18
+319,Cupertino Charging Hub 7,37.311032,-122.022562,424 Pine Dr,Cupertino,CA,94577,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,115,7166.17,1906.57
+320,Cupertino Charging Hub 8,37.326767,-122.007397,232 California St,Cupertino,CA,94951,DC Fast,$0.10/kWh,Active,210,9027.92,902.8
+321,Cupertino Charging Hub 9,37.312586,-122.030551,195 Sunset Ave,Cupertino,CA,94706,Level 2,$0.15/kWh,Active,146,3225.33,483.81
+322,Cupertino Charging Hub 10,37.323082,-122.028294,984 Main St,Cupertino,CA,94146,DC Fast,$0.25/kWh + $1 session fee,Active,181,7389.36,2028.43
+323,Cupertino Charging Hub 11,37.291568,-122.065858,609 Park Blvd,Cupertino,CA,94757,Level 2,$0.25/kWh + $1 session fee,Active,116,2623.6,771.93
+324,Cupertino Charging Hub 12,37.320878,-122.014381,261 Geary Dr,Cupertino,CA,94595,Level 2,Free,Active,105,2299.23,0.0
+325,Menlo Park Charging Hub 1,37.447679,-122.178489,981 Market Dr,Menlo Park,CA,94233,Level 2,$0.15/kWh,Active,80,1780.02,267.04
+326,Menlo Park Charging Hub 2,37.421502,-122.213288,986 Maple Blvd,Menlo Park,CA,94691,CHAdeMO,$0.25/kWh + $1 session fee,Active,98,3857.06,1062.24
+327,Menlo Park Charging Hub 3,37.458259,-122.186147,151 Walnut Dr,Menlo Park,CA,94711,Level 2,$0.25/kWh + $1 session fee,Active,80,1827.19,536.77
+328,Menlo Park Charging Hub 4,37.459752,-122.192621,243 University Blvd,Menlo Park,CA,94266,Level 2,$0.25/kWh + $1 session fee,Maintenance,90,1934.16,573.53
+329,Menlo Park Charging Hub 5,37.44474,-122.183641,371 Lake Ave,Menlo Park,CA,94838,CCS,Free,Active,80,3496.16,0.0
+330,Menlo Park Charging Hub 6,37.482119,-122.172059,797 Willow St,Menlo Park,CA,94686,Tesla Supercharger,$0.20/kWh,Active,97,5826.25,1165.29
+331,Menlo Park Charging Hub 7,37.486981,-122.184304,631 Birch Blvd,Menlo Park,CA,94778,CHAdeMO,Free,Active,103,4183.78,0.0
+332,Menlo Park Charging Hub 8,37.450991,-122.176991,450 Park Blvd,Menlo Park,CA,94792,CHAdeMO,$0.20/kWh,Maintenance,210,8342.09,1668.51
+333,Menlo Park Charging Hub 9,37.482095,-122.145413,296 Willow Blvd,Menlo Park,CA,94671,DC Fast,$0.15/kWh,Active,107,4374.44,656.17
+334,Menlo Park Charging Hub 10,37.479322,-122.152629,914 Chestnut Blvd,Menlo Park,CA,94224,Level 2,$0.20/kWh,Active,82,1861.19,372.25
+335,Menlo Park Charging Hub 11,37.42073,-122.212686,552 Chestnut Dr,Menlo Park,CA,94319,CHAdeMO,Free,Active,130,5265.74,0.0
+336,Menlo Park Charging Hub 12,37.479858,-122.128095,345 Willow St,Menlo Park,CA,94785,Level 2,$0.25/kWh + $1 session fee,Active,114,2506.61,740.71
+337,Hayward Charging Hub 1,37.573585,-122.10454,889 Elm St,Hayward,CA,94663,Level 2,$0.20/kWh,Active,209,4545.61,909.12
+338,Hayward Charging Hub 2,37.674499,-122.003709,394 University Blvd,Hayward,CA,94761,Level 2,$0.10/kWh,Active,183,4073.32,407.38
+339,Hayward Charging Hub 3,37.660027,-122.146229,840 Oak Ave,Hayward,CA,94527,DC Fast,$0.10/kWh,Active,80,3029.04,302.9
+340,Hayward Charging Hub 4,37.624684,-122.065135,109 Walnut St,Hayward,CA,94443,CHAdeMO,$0.15/kWh,Maintenance,181,6704.76,1005.68
+341,Hayward Charging Hub 5,37.688522,-122.092124,237 Sunset Dr,Hayward,CA,94379,Level 2,$0.20/kWh,Maintenance,106,2429.73,485.95
+342,Hayward Charging Hub 6,37.575195,-122.114148,835 Maple St,Hayward,CA,94854,Level 2,$0.20/kWh,Active,148,3220.78,644.17
+343,Hayward Charging Hub 7,37.643218,-122.013776,188 Broadway St,Hayward,CA,94289,Level 2,$0.20/kWh,Active,113,2530.6,506.07
+344,Hayward Charging Hub 8,37.618393,-122.068356,840 Lake St,Hayward,CA,94367,Level 2,$0.15/kWh,Active,140,3011.72,451.74
+345,Hayward Charging Hub 9,37.650206,-122.003519,263 Broadway Blvd,Hayward,CA,94806,Level 2,Free,Active,118,2679.6,0.0
+346,Hayward Charging Hub 10,37.640102,-122.089609,565 Hill Blvd,Hayward,CA,94525,Level 2,$0.10/kWh,Active,178,3980.95,398.02
+347,Hayward Charging Hub 11,37.678656,-121.991935,796 Hill St,Hayward,CA,94638,Tesla Supercharger,$0.10/kWh,Active,211,12969.18,1296.94
+348,Hayward Charging Hub 12,37.651628,-122.053192,948 Park Ave,Hayward,CA,94686,Level 2,$0.25/kWh + $1 session fee,Active,188,4210.33,1240.55
+349,Concord Charging Hub 1,37.967539,-121.951998,622 Geary St,Concord,CA,94564,DC Fast,$0.25/kWh + $1 session fee,Active,163,6745.0,1849.28
+350,Concord Charging Hub 2,37.964928,-122.047197,926 Walnut St,Concord,CA,94505,Level 2,$0.25/kWh + $1 session fee,Active,131,2771.08,823.76
+351,Concord Charging Hub 3,37.993098,-122.008757,170 Mission St,Concord,CA,94393,Level 2,Free,Maintenance,190,4200.93,0.0
+352,Concord Charging Hub 4,37.999878,-122.010711,491 Geary Dr,Concord,CA,94484,Tesla Supercharger,$0.20/kWh,Active,152,9029.67,1805.97
+353,Concord Charging Hub 5,37.937008,-121.949354,650 Broadway Ave,Concord,CA,94845,CCS,Free,Active,201,7981.65,0.0
+354,Concord Charging Hub 6,37.994948,-122.003578,353 Geary Blvd,Concord,CA,94258,Level 2,$0.20/kWh,Active,154,3413.57,682.75
+355,Concord Charging Hub 7,38.01653,-122.028263,776 California St,Concord,CA,94346,DC Fast,Free,Active,147,5898.72,0.0
+356,Concord Charging Hub 8,37.928673,-121.97192,652 Birch St,Concord,CA,94243,DC Fast,$0.20/kWh,Active,212,8407.56,1681.53
+357,Concord Charging Hub 9,37.952456,-121.998191,712 University Ave,Concord,CA,94409,CCS,$0.25/kWh + $1 session fee,Active,127,4843.74,1337.9
+358,Concord Charging Hub 10,37.964744,-121.995904,852 Maple Dr,Concord,CA,94669,Level 2,$0.25/kWh + $1 session fee,Maintenance,178,4021.73,1183.43
+359,Concord Charging Hub 11,37.95537,-121.961048,288 Park Dr,Concord,CA,94346,Level 2,$0.10/kWh,Active,216,4811.68,481.16
+360,Concord Charging Hub 12,37.979456,-121.944059,497 Willow Blvd,Concord,CA,94308,CHAdeMO,$0.25/kWh + $1 session fee,Active,84,3218.17,888.5
+361,San Francisco Charging Hub 1,37.795894,-122.44668,487 Pine Blvd,San Francisco,CA,94949,CCS,$0.20/kWh,Active,164,6609.97,1321.99
+362,San Francisco Charging Hub 2,37.72094,-122.457127,799 Pine Ave,San Francisco,CA,94646,Level 2,$0.15/kWh,Active,81,1794.06,269.12
+363,San Francisco Charging Hub 3,37.732222,-122.502484,167 Birch Blvd,San Francisco,CA,94317,Level 2,$0.15/kWh,Active,201,4407.64,661.13
+364,San Francisco Charging Hub 4,37.771275,-122.394343,651 Chestnut Dr,San Francisco,CA,94697,Level 2,$0.10/kWh,Active,154,3570.63,357.1
+365,San Francisco Charging Hub 5,37.765039,-122.489933,579 Sunset Blvd,San Francisco,CA,94666,Level 2,$0.20/kWh,Active,167,3735.89,747.21
+366,San Francisco Charging Hub 6,37.744016,-122.428709,482 Maple St,San Francisco,CA,94713,DC Fast,$0.25/kWh + $1 session fee,Active,148,5866.4,1614.61
+367,San Francisco Charging Hub 7,37.745557,-122.459035,187 Mission St,San Francisco,CA,94878,Level 2,$0.25/kWh + $1 session fee,Maintenance,152,3308.16,979.04
+368,San Francisco Charging Hub 8,37.711868,-122.483289,532 Maple Blvd,San Francisco,CA,94573,Level 2,$0.25/kWh + $1 session fee,Active,86,1850.72,548.67
+369,San Francisco Charging Hub 9,37.721561,-122.445743,160 Maple Dr,San Francisco,CA,94102,Level 2,$0.10/kWh,Maintenance,96,2077.33,207.73
+370,San Francisco Charging Hub 10,37.770622,-122.496184,598 Elm Ave,San Francisco,CA,94403,Level 2,$0.25/kWh + $1 session fee,Active,89,1998.28,588.6
+371,San Francisco Charging Hub 11,37.761915,-122.435499,708 Oak St,San Francisco,CA,94529,CHAdeMO,$0.25/kWh + $1 session fee,Active,140,5855.72,1603.95
+372,San Francisco Charging Hub 12,37.779187,-122.442451,533 Chestnut St,San Francisco,CA,94103,Level 2,Free,Active,193,4114.66,0.0
+373,San Jose Charging Hub 1,37.367312,-121.842709,807 Elm St,San Jose,CA,94954,Level 2,Free,Active,120,2704.99,0.0
+374,San Jose Charging Hub 2,37.314327,-121.876129,915 Oak Blvd,San Jose,CA,94315,Level 2,Free,Active,99,2206.24,0.0
+375,San Jose Charging Hub 3,37.316873,-121.883279,342 Maple Ave,San Jose,CA,94522,CCS,$0.25/kWh + $1 session fee,Active,168,6770.36,1860.62
+376,San Jose Charging Hub 4,37.405689,-121.943677,992 Willow Ave,San Jose,CA,94124,Level 2,$0.15/kWh,Active,184,3936.54,590.46
+377,San Jose Charging Hub 5,37.358265,-121.811614,218 Chestnut Ave,San Jose,CA,94694,CCS,$0.15/kWh,Maintenance,89,3469.41,520.43
+378,San Jose Charging Hub 6,37.300106,-121.767065,145 California St,San Jose,CA,94632,Level 2,$0.25/kWh + $1 session fee,Active,197,4359.89,1286.97
+379,San Jose Charging Hub 7,37.249176,-121.737419,779 Cedar Blvd,San Jose,CA,94619,Level 2,$0.15/kWh,Active,206,4412.47,661.92
+380,San Jose Charging Hub 8,37.264459,-121.903709,296 California Dr,San Jose,CA,94793,Level 2,$0.15/kWh,Active,210,4547.43,682.1
+381,San Jose Charging Hub 9,37.263657,-121.78414,540 Lake Blvd,San Jose,CA,94576,CCS,$0.15/kWh,Active,218,9292.8,1393.87
+382,San Jose Charging Hub 10,37.356919,-121.842732,390 Sunset Blvd,San Jose,CA,94195,Level 2,$0.10/kWh,Active,164,3479.51,347.91
+383,San Jose Charging Hub 11,37.200883,-121.736422,586 Hill St,San Jose,CA,94566,Level 2,Free,Active,189,4168.69,0.0
+384,San Jose Charging Hub 12,37.341051,-121.855316,349 Elm St,San Jose,CA,94868,Level 2,$0.20/kWh,Active,110,2442.22,488.46
+385,Oakland Charging Hub 1,37.739988,-122.165269,670 Willow St,Oakland,CA,94567,CCS,$0.25/kWh + $1 session fee,Active,113,4582.96,1258.76
+386,Oakland Charging Hub 2,37.803261,-122.221607,836 Sunset Dr,Oakland,CA,94950,Level 2,$0.20/kWh,Active,121,2692.92,538.57
+387,Oakland Charging Hub 3,37.839141,-122.240075,633 Mission Ave,Oakland,CA,94381,CCS,$0.15/kWh,Active,145,6195.83,929.37
+388,Oakland Charging Hub 4,37.832028,-122.242398,653 Pine Ave,Oakland,CA,94254,Level 2,$0.15/kWh,Active,133,2726.69,408.97
+389,Oakland Charging Hub 5,37.828382,-122.289924,438 Park Dr,Oakland,CA,94525,DC Fast,Free,Active,187,7706.71,0.0
+390,Oakland Charging Hub 6,37.842494,-122.253879,883 Lake Dr,Oakland,CA,94588,CHAdeMO,Free,Maintenance,216,8858.81,0.0
+391,Oakland Charging Hub 7,37.800881,-122.17231,379 California Dr,Oakland,CA,94129,DC Fast,$0.10/kWh,Active,209,8514.21,851.44
+392,Oakland Charging Hub 8,37.823717,-122.25402,230 Hill St,Oakland,CA,94503,Tesla Supercharger,$0.10/kWh,Active,143,8423.39,842.41
+393,Oakland Charging Hub 9,37.822624,-122.207764,572 Maple St,Oakland,CA,94366,Level 2,$0.20/kWh,Active,158,3462.72,692.52
+394,Oakland Charging Hub 10,37.8409,-122.268148,183 Mission St,Oakland,CA,94867,Level 2,$0.20/kWh,Active,138,3048.47,609.69
+395,Oakland Charging Hub 11,37.820232,-122.262882,353 Birch St,Oakland,CA,94736,Tesla Supercharger,Free,Active,160,9699.19,0.0
+396,Oakland Charging Hub 12,37.804199,-122.190093,271 Hill St,Oakland,CA,94896,Level 2,$0.15/kWh,Active,201,4251.48,637.78
+397,Palo Alto Charging Hub 1,37.459454,-122.106746,689 Broadway Dr,Palo Alto,CA,94832,Level 2,Free,Maintenance,213,4655.38,0.0
+398,Palo Alto Charging Hub 2,37.431108,-122.122556,455 Park Dr,Palo Alto,CA,94777,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,104,6555.72,1742.92
+399,Palo Alto Charging Hub 3,37.41362,-122.105645,376 Hill Dr,Palo Alto,CA,94576,Level 2,$0.25/kWh + $1 session fee,Offline,183,4070.54,1200.6
+400,Palo Alto Charging Hub 4,37.417843,-122.15167,188 Chestnut Dr,Palo Alto,CA,94349,Level 2,$0.10/kWh,Active,102,2234.81,223.51
+401,Palo Alto Charging Hub 5,37.337474,-122.172418,629 Birch St,Palo Alto,CA,94347,Level 2,$0.15/kWh,Active,119,2559.22,383.91
+402,Palo Alto Charging Hub 6,37.420498,-122.152849,357 Willow St,Palo Alto,CA,94838,Level 2,$0.20/kWh,Active,135,2932.47,586.5
+403,Palo Alto Charging Hub 7,37.423392,-122.139929,383 Lake Blvd,Palo Alto,CA,94202,Level 2,$0.10/kWh,Active,173,3927.76,392.79
+404,Palo Alto Charging Hub 8,37.421718,-122.127987,580 Mission Dr,Palo Alto,CA,94448,Level 2,Free,Active,102,2241.7,0.0
+405,Palo Alto Charging Hub 9,37.440837,-122.150834,161 Hill St,Palo Alto,CA,94881,CHAdeMO,$0.15/kWh,Active,193,7975.95,1196.41
+406,Palo Alto Charging Hub 10,37.325253,-122.178338,665 Pine Ave,Palo Alto,CA,94102,DC Fast,$0.10/kWh,Active,94,4174.08,417.44
+407,Palo Alto Charging Hub 11,37.338019,-122.168935,370 Lake Ave,Palo Alto,CA,94535,CCS,Free,Active,132,5568.27,0.0
+408,Palo Alto Charging Hub 12,37.451703,-122.106168,816 Broadway Blvd,Palo Alto,CA,94612,Level 2,$0.20/kWh,Active,193,4319.14,863.88
+409,Mountain View Charging Hub 1,37.396475,-122.078355,718 Chestnut St,Mountain View,CA,94193,Level 2,$0.20/kWh,Active,114,2500.11,500.0
+410,Mountain View Charging Hub 2,37.41931,-122.100938,883 Chestnut St,Mountain View,CA,94881,CCS,$0.25/kWh + $1 session fee,Offline,138,5787.35,1584.86
+411,Mountain View Charging Hub 3,37.399636,-122.062652,699 California Dr,Mountain View,CA,94193,DC Fast,$0.15/kWh,Active,154,6105.9,915.87
+412,Mountain View Charging Hub 4,37.393636,-122.083435,437 California Dr,Mountain View,CA,94395,Level 2,Free,Maintenance,205,4411.8,0.0
+413,Mountain View Charging Hub 5,37.392874,-122.069454,422 Chestnut Blvd,Mountain View,CA,94218,Tesla Supercharger,Free,Active,185,11229.28,0.0
+414,Mountain View Charging Hub 6,37.393233,-122.047122,655 Geary Dr,Mountain View,CA,94155,Level 2,Free,Active,133,2880.39,0.0
+415,Mountain View Charging Hub 7,37.389141,-122.103939,308 Chestnut Ave,Mountain View,CA,94394,Tesla Supercharger,$0.20/kWh,Active,123,7590.24,1518.02
+416,Mountain View Charging Hub 8,37.421623,-122.08575,826 Maple Blvd,Mountain View,CA,94664,Level 2,$0.25/kWh + $1 session fee,Active,207,4538.61,1341.59
+417,Mountain View Charging Hub 9,37.369079,-122.070534,379 California Dr,Mountain View,CA,94583,CHAdeMO,$0.15/kWh,Active,103,4152.21,622.84
+418,Mountain View Charging Hub 10,37.407433,-122.099863,239 Pine Blvd,Mountain View,CA,94891,Level 2,$0.25/kWh + $1 session fee,Active,109,2404.24,710.06
+419,Mountain View Charging Hub 11,37.394273,-122.060203,102 Walnut Blvd,Mountain View,CA,94957,CHAdeMO,$0.25/kWh + $1 session fee,Active,95,4048.47,1107.06
+420,Mountain View Charging Hub 12,37.368561,-122.08201,881 Park Dr,Mountain View,CA,94566,Level 2,$0.15/kWh,Active,88,1856.59,278.5
+421,Berkeley Charging Hub 1,37.864945,-122.287574,779 Elm Dr,Berkeley,CA,94137,Level 2,$0.20/kWh,Active,153,3510.15,702.05
+422,Berkeley Charging Hub 2,37.851882,-122.294712,567 Main Ave,Berkeley,CA,94519,CCS,Free,Active,209,8301.91,0.0
+423,Berkeley Charging Hub 3,37.850679,-122.288779,424 Mission St,Berkeley,CA,94732,Level 2,$0.25/kWh + $1 session fee,Active,159,3394.12,1007.51
+424,Berkeley Charging Hub 4,37.87189,-122.25713,810 Walnut St,Berkeley,CA,94147,Level 2,Free,Active,122,2670.31,0.0
+425,Berkeley Charging Hub 5,37.849228,-122.295403,643 California Ave,Berkeley,CA,94274,Level 2,$0.20/kWh,Active,171,3893.69,778.71
+426,Berkeley Charging Hub 6,37.880838,-122.279701,782 Main Dr,Berkeley,CA,94394,Level 2,$0.15/kWh,Active,95,2040.39,306.09
+427,Berkeley Charging Hub 7,37.855337,-122.263396,406 California Blvd,Berkeley,CA,94567,Level 2,$0.15/kWh,Offline,154,3478.4,521.73
+428,Berkeley Charging Hub 8,37.85781,-122.248202,490 Lake Blvd,Berkeley,CA,94688,Level 2,$0.20/kWh,Active,189,4091.32,818.26
+429,Berkeley Charging Hub 9,37.895813,-122.257275,460 Willow Ave,Berkeley,CA,94735,CCS,$0.10/kWh,Active,139,5652.63,565.24
+430,Berkeley Charging Hub 10,37.886697,-122.255254,761 Oak Blvd,Berkeley,CA,94907,Level 2,Free,Maintenance,201,4431.99,0.0
+431,Berkeley Charging Hub 11,37.880623,-122.284852,434 California Ave,Berkeley,CA,94305,DC Fast,Free,Maintenance,143,6057.77,0.0
+432,Berkeley Charging Hub 12,37.894232,-122.281134,579 Pine Ave,Berkeley,CA,94872,DC Fast,$0.15/kWh,Active,140,5930.15,889.55
+433,Fremont Charging Hub 1,37.574772,-122.036586,477 Chestnut Dr,Fremont,CA,94942,Level 2,$0.25/kWh + $1 session fee,Active,119,2689.4,791.34
+434,Fremont Charging Hub 2,37.510879,-121.964993,674 University Ave,Fremont,CA,94763,DC Fast,$0.20/kWh,Active,168,6785.95,1357.24
+435,Fremont Charging Hub 3,37.50032,-121.893909,138 Walnut Dr,Fremont,CA,94218,Level 2,$0.10/kWh,Active,182,3794.51,379.48
+436,Fremont Charging Hub 4,37.523403,-122.096981,860 Elm Dr,Fremont,CA,94770,DC Fast,$0.25/kWh + $1 session fee,Active,202,8337.99,2286.5
+437,Fremont Charging Hub 5,37.528845,-122.106598,479 Birch Dr,Fremont,CA,94555,Level 2,$0.15/kWh,Active,96,2141.12,321.14
+438,Fremont Charging Hub 6,37.558768,-122.106511,382 Birch St,Fremont,CA,94968,Level 2,$0.15/kWh,Active,145,3352.41,502.93
+439,Fremont Charging Hub 7,37.468235,-121.916269,151 University Ave,Fremont,CA,94228,Level 2,$0.25/kWh + $1 session fee,Offline,208,4383.05,1303.75
+440,Fremont Charging Hub 8,37.485538,-121.926036,321 Willow Blvd,Fremont,CA,94892,CCS,$0.25/kWh + $1 session fee,Active,202,8135.69,2235.93
+441,Fremont Charging Hub 9,37.503609,-122.070139,531 Sunset St,Fremont,CA,94863,Level 2,Free,Active,201,4431.14,0.0
+442,Fremont Charging Hub 10,37.565103,-121.971146,758 Main St,Fremont,CA,94590,CCS,$0.25/kWh + $1 session fee,Active,152,6034.87,1660.74
+443,Fremont Charging Hub 11,37.519232,-121.910205,182 University Ave,Fremont,CA,94167,Level 2,$0.20/kWh,Active,106,2312.31,462.49
+444,Fremont Charging Hub 12,37.549416,-122.099467,711 Sunset Blvd,Fremont,CA,94564,Level 2,$0.15/kWh,Active,187,4088.66,613.26
+445,Sunnyvale Charging Hub 1,37.381299,-122.023372,766 Park Ave,Sunnyvale,CA,94540,Tesla Supercharger,Free,Maintenance,208,12361.47,0.0
+446,Sunnyvale Charging Hub 2,37.357351,-122.027839,847 Cedar Blvd,Sunnyvale,CA,94537,Level 2,$0.20/kWh,Active,177,4024.8,804.97
+447,Sunnyvale Charging Hub 3,37.360485,-122.039342,951 Pine St,Sunnyvale,CA,94542,CHAdeMO,$0.20/kWh,Active,105,4217.0,843.42
+448,Sunnyvale Charging Hub 4,37.396278,-121.998036,786 Cedar Dr,Sunnyvale,CA,94462,Level 2,$0.25/kWh + $1 session fee,Active,183,4157.6,1222.42
+449,Sunnyvale Charging Hub 5,37.364372,-122.060943,317 Elm Dr,Sunnyvale,CA,94329,Level 2,Free,Active,182,3909.44,0.0
+450,Sunnyvale Charging Hub 6,37.37179,-121.995098,687 Willow Dr,Sunnyvale,CA,94965,Level 2,Free,Active,180,3984.67,0.0
+451,Sunnyvale Charging Hub 7,37.421336,-122.018787,773 Chestnut St,Sunnyvale,CA,94284,DC Fast,$0.25/kWh + $1 session fee,Active,147,5983.9,1642.96
+452,Sunnyvale Charging Hub 8,37.371898,-121.988954,510 Pine Ave,Sunnyvale,CA,94858,Level 2,$0.10/kWh,Active,165,3606.25,360.62
+453,Sunnyvale Charging Hub 9,37.355765,-122.003468,419 University St,Sunnyvale,CA,94153,Level 2,$0.15/kWh,Active,178,3873.93,581.14
+454,Sunnyvale Charging Hub 10,37.339909,-122.061082,552 California Blvd,Sunnyvale,CA,94320,Level 2,$0.20/kWh,Active,192,4088.87,817.77
+455,Sunnyvale Charging Hub 11,37.363852,-122.02963,415 Oak Ave,Sunnyvale,CA,94504,DC Fast,$0.20/kWh,Active,192,7930.96,1586.29
+456,Sunnyvale Charging Hub 12,37.442457,-122.048286,222 Main Dr,Sunnyvale,CA,94864,Tesla Supercharger,$0.15/kWh,Active,179,10832.54,1624.9
+457,Redwood City Charging Hub 1,37.460785,-122.237054,953 Market St,Redwood City,CA,94506,Level 2,$0.10/kWh,Active,135,2918.8,291.91
+458,Redwood City Charging Hub 2,37.507843,-122.183185,514 Main Blvd,Redwood City,CA,94275,Level 2,$0.20/kWh,Active,170,3694.27,738.83
+459,Redwood City Charging Hub 3,37.512308,-122.190774,964 Cedar Ave,Redwood City,CA,94546,CCS,$0.15/kWh,Active,130,5221.02,783.14
+460,Redwood City Charging Hub 4,37.502385,-122.2173,326 University Ave,Redwood City,CA,94178,Level 2,$0.15/kWh,Active,105,2378.39,356.76
+461,Redwood City Charging Hub 5,37.459187,-122.227087,938 Elm Ave,Redwood City,CA,94205,Level 2,$0.15/kWh,Active,161,3565.77,534.81
+462,Redwood City Charging Hub 6,37.527281,-122.215611,743 Mission Dr,Redwood City,CA,94872,DC Fast,$0.10/kWh,Offline,164,6587.7,658.8
+463,Redwood City Charging Hub 7,37.508234,-122.220438,739 University Blvd,Redwood City,CA,94254,DC Fast,$0.25/kWh + $1 session fee,Active,101,3911.58,1078.9
+464,Redwood City Charging Hub 8,37.496585,-122.235917,460 Sunset St,Redwood City,CA,94417,DC Fast,$0.15/kWh,Active,149,5996.7,899.44
+465,Redwood City Charging Hub 9,37.451135,-122.233173,984 Pine Dr,Redwood City,CA,94573,Level 2,$0.15/kWh,Active,180,3812.21,571.84
+466,Redwood City Charging Hub 10,37.507411,-122.177324,254 Oak Dr,Redwood City,CA,94205,Level 2,$0.25/kWh + $1 session fee,Active,130,2928.94,862.23
+467,Redwood City Charging Hub 11,37.511431,-122.225391,893 University St,Redwood City,CA,94908,Level 2,$0.15/kWh,Active,109,2509.26,376.36
+468,Redwood City Charging Hub 12,37.482436,-122.212054,390 Chestnut Ave,Redwood City,CA,94441,Level 2,$0.25/kWh + $1 session fee,Active,80,1776.99,524.27
+469,San Mateo Charging Hub 1,37.56557,-122.34836,815 Broadway Ave,San Mateo,CA,94709,CCS,$0.15/kWh,Offline,80,3395.9,509.39
+470,San Mateo Charging Hub 2,37.56397,-122.310014,948 Sunset St,San Mateo,CA,94761,Level 2,$0.10/kWh,Active,201,4505.93,450.63
+471,San Mateo Charging Hub 3,37.553236,-122.301055,319 University Dr,San Mateo,CA,94296,Level 2,$0.15/kWh,Active,164,3588.05,538.2
+472,San Mateo Charging Hub 4,37.525707,-122.324648,269 Geary St,San Mateo,CA,94520,CCS,$0.25/kWh + $1 session fee,Active,200,7894.69,2173.69
+473,San Mateo Charging Hub 5,37.57002,-122.325646,866 Geary Ave,San Mateo,CA,94646,CHAdeMO,$0.25/kWh + $1 session fee,Active,117,4280.14,1187.05
+474,San Mateo Charging Hub 6,37.547838,-122.30909,528 Maple Ave,San Mateo,CA,94920,Tesla Supercharger,$0.20/kWh,Active,96,5698.05,1139.59
+475,San Mateo Charging Hub 7,37.587091,-122.325091,391 Pine Ave,San Mateo,CA,94379,DC Fast,$0.25/kWh + $1 session fee,Maintenance,96,3676.48,1015.13
+476,San Mateo Charging Hub 8,37.553623,-122.318817,327 Geary Blvd,San Mateo,CA,94127,CCS,Free,Maintenance,145,5583.85,0.0
+477,San Mateo Charging Hub 9,37.544328,-122.321582,483 Willow St,San Mateo,CA,94426,Level 2,$0.20/kWh,Offline,217,4686.77,937.41
+478,San Mateo Charging Hub 10,37.575728,-122.302701,583 Elm Dr,San Mateo,CA,94559,Level 2,$0.15/kWh,Maintenance,125,2723.36,408.47
+479,San Mateo Charging Hub 11,37.546459,-122.306001,148 Willow Dr,San Mateo,CA,94754,Tesla Supercharger,$0.10/kWh,Active,101,6127.05,612.71
+480,San Mateo Charging Hub 12,37.549151,-122.29114,116 Sunset Ave,San Mateo,CA,94835,Level 2,$0.20/kWh,Active,147,3244.17,648.85
+481,Santa Clara Charging Hub 1,37.364006,-121.994061,291 Pine Blvd,Santa Clara,CA,94169,DC Fast,$0.10/kWh,Active,163,6777.97,677.81
+482,Santa Clara Charging Hub 2,37.371493,-121.945749,496 Market Blvd,Santa Clara,CA,94865,Level 2,$0.20/kWh,Active,126,2777.09,555.46
+483,Santa Clara Charging Hub 3,37.393017,-121.978938,440 Elm St,Santa Clara,CA,94460,DC Fast,$0.25/kWh + $1 session fee,Active,178,7165.25,1969.31
+484,Santa Clara Charging Hub 4,37.400713,-121.963816,590 Maple Ave,Santa Clara,CA,94164,Level 2,$0.20/kWh,Offline,93,1967.8,393.57
+485,Santa Clara Charging Hub 5,37.34226,-122.002072,417 Sunset Dr,Santa Clara,CA,94934,Tesla Supercharger,Free,Active,97,5699.64,0.0
+486,Santa Clara Charging Hub 6,37.3472,-121.96404,982 Oak Blvd,Santa Clara,CA,94379,Tesla Supercharger,$0.10/kWh,Active,162,9136.12,913.54
+487,Santa Clara Charging Hub 7,37.358158,-121.995497,495 University Ave,Santa Clara,CA,94608,CCS,$0.20/kWh,Maintenance,204,7933.86,1586.85
+488,Santa Clara Charging Hub 8,37.358093,-121.95284,844 California St,Santa Clara,CA,94540,Tesla Supercharger,$0.15/kWh,Active,124,7310.91,1096.64
+489,Santa Clara Charging Hub 9,37.401557,-121.959575,435 Walnut Blvd,Santa Clara,CA,94556,Level 2,$0.15/kWh,Active,215,4822.91,723.43
+490,Santa Clara Charging Hub 10,37.363707,-121.959562,844 Market Dr,Santa Clara,CA,94381,DC Fast,$0.15/kWh,Active,161,6956.43,1043.43
+491,Santa Clara Charging Hub 11,37.398608,-121.956793,920 Maple St,Santa Clara,CA,94246,Level 2,$0.20/kWh,Active,161,3634.21,726.87
+492,Santa Clara Charging Hub 12,37.387777,-121.94107,897 Market Blvd,Santa Clara,CA,94492,Level 2,$0.10/kWh,Active,160,3749.87,374.92
+493,Cupertino Charging Hub 1,37.306348,-122.076459,687 Elm Blvd,Cupertino,CA,94507,Level 2,$0.20/kWh,Active,160,3401.25,680.33
+494,Cupertino Charging Hub 2,37.295764,-122.061118,611 Sunset Dr,Cupertino,CA,94675,CHAdeMO,Free,Active,180,7650.42,0.0
+495,Cupertino Charging Hub 3,37.32644,-122.07986,392 Mission Ave,Cupertino,CA,94225,DC Fast,$0.10/kWh,Offline,202,8447.17,844.64
+496,Cupertino Charging Hub 4,37.322633,-122.074627,826 Pine Blvd,Cupertino,CA,94407,CHAdeMO,$0.15/kWh,Active,195,7928.57,1189.33
+497,Cupertino Charging Hub 5,37.322536,-122.009932,620 Willow St,Cupertino,CA,94305,CHAdeMO,$0.10/kWh,Active,96,4097.24,409.7
+498,Cupertino Charging Hub 6,37.300846,-122.043994,664 Elm St,Cupertino,CA,94167,Level 2,$0.20/kWh,Active,98,2125.92,425.18
+499,Cupertino Charging Hub 7,37.311032,-122.022562,424 Pine Dr,Cupertino,CA,94577,Tesla Supercharger,$0.25/kWh + $1 session fee,Active,115,7166.17,1906.57
+500,Cupertino Charging Hub 8,37.326767,-122.007397,232 California St,Cupertino,CA,94951,DC Fast,$0.10/kWh,Active,210,9027.92,902.8
+501,Cupertino Charging Hub 9,37.312586,-122.030551,195 Sunset Ave,Cupertino,CA,94706,Level 2,$0.15/kWh,Active,146,3225.33,483.81
+502,Cupertino Charging Hub 10,37.323082,-122.028294,984 Main St,Cupertino,CA,94146,DC Fast,$0.25/kWh + $1 session fee,Active,181,7389.36,2028.43
+503,Cupertino Charging Hub 11,37.291568,-122.065858,609 Park Blvd,Cupertino,CA,94757,Level 2,$0.25/kWh + $1 session fee,Active,116,2623.6,771.93
+504,Cupertino Charging Hub 12,37.320878,-122.014381,261 Geary Dr,Cupertino,CA,94595,Level 2,Free,Active,105,2299.23,0.0
+505,Menlo Park Charging Hub 1,37.447679,-122.178489,981 Market Dr,Menlo Park,CA,94233,Level 2,$0.15/kWh,Active,80,1780.02,267.04
+506,Menlo Park Charging Hub 2,37.421502,-122.213288,986 Maple Blvd,Menlo Park,CA,94691,CHAdeMO,$0.25/kWh + $1 session fee,Active,98,3857.06,1062.24
+507,Menlo Park Charging Hub 3,37.458259,-122.186147,151 Walnut Dr,Menlo Park,CA,94711,Level 2,$0.25/kWh + $1 session fee,Active,80,1827.19,536.77
+508,Menlo Park Charging Hub 4,37.459752,-122.192621,243 University Blvd,Menlo Park,CA,94266,Level 2,$0.25/kWh + $1 session fee,Maintenance,90,1934.16,573.53
+509,Menlo Park Charging Hub 5,37.44474,-122.183641,371 Lake Ave,Menlo Park,CA,94838,CCS,Free,Active,80,3496.16,0.0
+510,Menlo Park Charging Hub 6,37.482119,-122.172059,797 Willow St,Menlo Park,CA,94686,Tesla Supercharger,$0.20/kWh,Active,97,5826.25,1165.29
+511,Menlo Park Charging Hub 7,37.486981,-122.184304,631 Birch Blvd,Menlo Park,CA,94778,CHAdeMO,Free,Active,103,4183.78,0.0
+512,Menlo Park Charging Hub 8,37.450991,-122.176991,450 Park Blvd,Menlo Park,CA,94792,CHAdeMO,$0.20/kWh,Maintenance,210,8342.09,1668.51
+513,Menlo Park Charging Hub 9,37.482095,-122.145413,296 Willow Blvd,Menlo Park,CA,94671,DC Fast,$0.15/kWh,Active,107,4374.44,656.17
+514,Menlo Park Charging Hub 10,37.479322,-122.152629,914 Chestnut Blvd,Menlo Park,CA,94224,Level 2,$0.20/kWh,Active,82,1861.19,372.25
+515,Menlo Park Charging Hub 11,37.42073,-122.212686,552 Chestnut Dr,Menlo Park,CA,94319,CHAdeMO,Free,Active,130,5265.74,0.0
+516,Menlo Park Charging Hub 12,37.479858,-122.128095,345 Willow St,Menlo Park,CA,94785,Level 2,$0.25/kWh + $1 session fee,Active,114,2506.61,740.71
+517,Hayward Charging Hub 1,37.573585,-122.10454,889 Elm St,Hayward,CA,94663,Level 2,$0.20/kWh,Active,209,4545.61,909.12
+518,Hayward Charging Hub 2,37.674499,-122.003709,394 University Blvd,Hayward,CA,94761,Level 2,$0.10/kWh,Active,183,4073.32,407.38
+519,Hayward Charging Hub 3,37.660027,-122.146229,840 Oak Ave,Hayward,CA,94527,DC Fast,$0.10/kWh,Active,80,3029.04,302.9
+520,Hayward Charging Hub 4,37.624684,-122.065135,109 Walnut St,Hayward,CA,94443,CHAdeMO,$0.15/kWh,Maintenance,181,6704.76,1005.68
+521,Hayward Charging Hub 5,37.688522,-122.092124,237 Sunset Dr,Hayward,CA,94379,Level 2,$0.20/kWh,Maintenance,106,2429.73,485.95
+522,Hayward Charging Hub 6,37.575195,-122.114148,835 Maple St,Hayward,CA,94854,Level 2,$0.20/kWh,Active,148,3220.78,644.17
+523,Hayward Charging Hub 7,37.643218,-122.013776,188 Broadway St,Hayward,CA,94289,Level 2,$0.20/kWh,Active,113,2530.6,506.07
+524,Hayward Charging Hub 8,37.618393,-122.068356,840 Lake St,Hayward,CA,94367,Level 2,$0.15/kWh,Active,140,3011.72,451.74
+525,Hayward Charging Hub 9,37.650206,-122.003519,263 Broadway Blvd,Hayward,CA,94806,Level 2,Free,Active,118,2679.6,0.0
+526,Hayward Charging Hub 10,37.640102,-122.089609,565 Hill Blvd,Hayward,CA,94525,Level 2,$0.10/kWh,Active,178,3980.95,398.02
+527,Hayward Charging Hub 11,37.678656,-121.991935,796 Hill St,Hayward,CA,94638,Tesla Supercharger,$0.10/kWh,Active,211,12969.18,1296.94
+528,Hayward Charging Hub 12,37.651628,-122.053192,948 Park Ave,Hayward,CA,94686,Level 2,$0.25/kWh + $1 session fee,Active,188,4210.33,1240.55
+529,Concord Charging Hub 1,37.967539,-121.951998,622 Geary St,Concord,CA,94564,DC Fast,$0.25/kWh + $1 session fee,Active,163,6745.0,1849.28
+530,Concord Charging Hub 2,37.964928,-122.047197,926 Walnut St,Concord,CA,94505,Level 2,$0.25/kWh + $1 session fee,Active,131,2771.08,823.76
+531,Concord Charging Hub 3,37.993098,-122.008757,170 Mission St,Concord,CA,94393,Level 2,Free,Maintenance,190,4200.93,0.0
+532,Concord Charging Hub 4,37.999878,-122.010711,491 Geary Dr,Concord,CA,94484,Tesla Supercharger,$0.20/kWh,Active,152,9029.67,1805.97
+533,Concord Charging Hub 5,37.937008,-121.949354,650 Broadway Ave,Concord,CA,94845,CCS,Free,Active,201,7981.65,0.0
+534,Concord Charging Hub 6,37.994948,-122.003578,353 Geary Blvd,Concord,CA,94258,Level 2,$0.20/kWh,Active,154,3413.57,682.75
+535,Concord Charging Hub 7,38.01653,-122.028263,776 California St,Concord,CA,94346,DC Fast,Free,Active,147,5898.72,0.0
+536,Concord Charging Hub 8,37.928673,-121.97192,652 Birch St,Concord,CA,94243,DC Fast,$0.20/kWh,Active,212,8407.56,1681.53
+537,Concord Charging Hub 9,37.952456,-121.998191,712 University Ave,Concord,CA,94409,CCS,$0.25/kWh + $1 session fee,Active,127,4843.74,1337.9
+538,Concord Charging Hub 10,37.964744,-121.995904,852 Maple Dr,Concord,CA,94669,Level 2,$0.25/kWh + $1 session fee,Maintenance,178,4021.73,1183.43
+539,Concord Charging Hub 11,37.95537,-121.961048,288 Park Dr,Concord,CA,94346,Level 2,$0.10/kWh,Active,216,4811.68,481.16
+540,Concord Charging Hub 12,37.979456,-121.944059,497 Willow Blvd,Concord,CA,94308,CHAdeMO,$0.25/kWh + $1 session fee,Active,84,3218.17,888.5

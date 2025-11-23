@@ -1,0 +1,8 @@
+venv/
+.env
+*.db
+*.pkl
+__pycache__/
+*.pyc
+.DS_Store
+ml_models/clusters_map.png
