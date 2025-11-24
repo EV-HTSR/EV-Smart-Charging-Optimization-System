@@ -1,0 +1,34 @@
+{
+  "cluster_0": {
+    "station_count": 53,
+    "avg_sessions": 119.98,
+    "avg_revenue": 762.1,
+    "avg_energy": 5933.87,
+    "common_charger": "CHAdeMO",
+    "characteristics": "Ultra high-usage urban hubs"
+  },
+  "cluster_1": {
+    "station_count": 33,
+    "avg_sessions": 151.55,
+    "avg_revenue": 388.71,
+    "avg_energy": 2871.54,
+    "common_charger": "Level 2",
+    "characteristics": "Ultra high-usage urban hubs"
+  },
+  "cluster_2": {
+    "station_count": 56,
+    "avg_sessions": 188.39,
+    "avg_revenue": 1735.02,
+    "avg_energy": 9480.01,
+    "common_charger": "DC Fast",
+    "characteristics": "Ultra high-usage urban hubs"
+  },
+  "cluster_3": {
+    "station_count": 38,
+    "avg_sessions": 132.45,
+    "avg_revenue": 700.56,
+    "avg_energy": 6473.09,
+    "common_charger": "DC Fast",
+    "characteristics": "Ultra high-usage urban hubs"
+  }
+}
