@@ -68,7 +68,7 @@ python -m venv venv
 
 ### 2️⃣ Activate the environment (PowerShell)
 ```
-.env\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
 ```
 
 ### 3️⃣ Install dependencies
@@ -90,7 +90,7 @@ python app_backend.py
 
 ### 6️⃣ New terminal → Activate venv → Start frontend
 ```
-.env\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1
 streamlit run app_frontend.py
 ```
 
